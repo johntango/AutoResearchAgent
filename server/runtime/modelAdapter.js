@@ -13,13 +13,40 @@ const summarizeMemories = (memories) => {
 
 const formatPlan = (plan) => plan.steps.map((step, index) => `${index + 1}. ${step}`).join('\n');
 
-const buildInstructions = ({ task, plan, retrieved }) => [
+const stripLinksAndCitations = (text) =>
+  text
+    .replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/gi, '$1')
+    .replace(/https?:\/\/\S+/gi, '')
+    .replace(/\(\s*utm_[^)]+\)/gi, '')
+    .replace(/\[\d+\]/g, '')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+
+const outputRulesForMode = (responseMode) => {
+  if (responseMode === 'detailed') {
+    return [
+      'Response style requirements:',
+      '- Be structured and detailed, but keep sections focused.',
+      '- Do not include URLs, citations, or source footnotes in the final answer.',
+      '- Use plain markdown headings and bullets only when needed.',
+    ].join('\n');
+  }
+
+  return [
+    'Response style requirements:',
+    '- Be concise: maximum 8 bullets or short paragraphs total.',
+    '- Prefer direct recommendations over long background explanations.',
+    '- Do not include URLs, citations, or source footnotes in the final answer.',
+  ].join('\n');
+};
+
+const buildInstructions = ({ task, plan, retrieved, responseMode }) => [
   'You are the controller for a minimal learning system that must not change model weights.',
   'Use external memory, tool calls, and concise reasoning to answer the user request.',
   'When recent or factual information matters, use the web search tool.',
   'When math is involved, use the calculator tool instead of mental arithmetic.',
   'Use the memory tools when they help ground the answer in retrieved facts, procedures, or episodes.',
-  'Keep the response practical and structured.',
+  outputRulesForMode(responseMode),
   '',
   `Task type: ${task.type}`,
   'Runtime plan:',
@@ -49,7 +76,7 @@ export const createModelAdapter = ({ toolRouter }) => {
   });
 
   return {
-    async generateResponse({ task, plan, retrieved, session }) {
+    async generateResponse({ task, plan, retrieved, session, responseMode }) {
       if (!process.env.OPENAI_API_KEY) {
         throw new Error('OPENAI_API_KEY is not set. Provide it before calling /api/chat.');
       }
@@ -63,7 +90,7 @@ export const createModelAdapter = ({ toolRouter }) => {
       const agent = new Agent({
         name: 'MinimalLearningSystem',
         model: 'gpt-5.4',
-        instructions: buildInstructions({ task, plan, retrieved }),
+        instructions: buildInstructions({ task, plan, retrieved, responseMode }),
         tools,
       });
 
@@ -79,7 +106,7 @@ export const createModelAdapter = ({ toolRouter }) => {
       });
 
       return {
-        answer: String(result.finalOutput ?? '').trim(),
+        answer: stripLinksAndCitations(String(result.finalOutput ?? '').trim()),
         citations: retrieved.facts.slice(0, 2).map((item) => item.id),
         toolResults,
         availableTools,

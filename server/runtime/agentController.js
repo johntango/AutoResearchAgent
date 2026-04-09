@@ -11,7 +11,7 @@ const createEpisode = ({ task, plan, response, evaluation, toolResults }) => ({
 });
 
 export const createAgentController = ({ planner, memoryManager, modelAdapter, evaluator, consolidator, sessionManager }) => ({
-  async run({ input, sessionId }) {
+  async run({ input, sessionId, responseMode }) {
     const task = {
       input,
       type: planner.classifyTask(input),
@@ -25,6 +25,7 @@ export const createAgentController = ({ planner, memoryManager, modelAdapter, ev
       plan,
       retrieved,
       session,
+      responseMode,
     });
     const evaluation = evaluator.evaluate({
       task,

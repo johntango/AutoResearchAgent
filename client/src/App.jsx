@@ -8,6 +8,7 @@ const starterPrompt = 'Research how episodic memory should be stored in this sys
 
 export default function App() {
   const [input, setInput] = useState(starterPrompt);
+  const [responseMode, setResponseMode] = useState('concise');
   const [memory, setMemory] = useState(null);
   const [result, setResult] = useState(null);
   const [sessionId, setSessionId] = useState('');
@@ -32,7 +33,11 @@ export default function App() {
     setError('');
 
     try {
-      const nextResult = await sendChat({ input, sessionId: sessionId || undefined });
+      const nextResult = await sendChat({
+        input,
+        sessionId: sessionId || undefined,
+        responseMode,
+      });
       setResult(nextResult);
       setSessionId(nextResult.sessionId);
       setMemory(await fetchMemory());
@@ -61,6 +66,8 @@ export default function App() {
         <ChatPanel
           input={input}
           setInput={setInput}
+          responseMode={responseMode}
+          setResponseMode={setResponseMode}
           onSubmit={handleSubmit}
           loading={loading}
           result={result}

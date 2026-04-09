@@ -1,4 +1,12 @@
-export default function ChatPanel({ input, setInput, onSubmit, loading, result }) {
+export default function ChatPanel({
+  input,
+  setInput,
+  responseMode,
+  setResponseMode,
+  onSubmit,
+  loading,
+  result,
+}) {
   return (
     <section className="panel panel-chat">
       <div className="panel-header">
@@ -6,6 +14,22 @@ export default function ChatPanel({ input, setInput, onSubmit, loading, result }
         <h2>Chat and orchestration</h2>
       </div>
       <form className="chat-form" onSubmit={onSubmit}>
+        <div className="mode-toggle" role="group" aria-label="Response mode">
+          <button
+            type="button"
+            className={responseMode === 'concise' ? 'toggle-active' : ''}
+            onClick={() => setResponseMode('concise')}
+          >
+            Concise
+          </button>
+          <button
+            type="button"
+            className={responseMode === 'detailed' ? 'toggle-active' : ''}
+            onClick={() => setResponseMode('detailed')}
+          >
+            Detailed
+          </button>
+        </div>
         <textarea
           value={input}
           onChange={(event) => setInput(event.target.value)}

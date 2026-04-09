@@ -7,7 +7,8 @@
     "client"
   ],
   "scripts": {
-    "dev": "concurrently \"npm run dev -w server\" \"npm run dev -w client\"",
+    "dev:clean-ports": "lsof -ti :3001 -ti :5173 -ti :5174 -ti :5175 | xargs -r kill -9",
+    "dev": "npm run dev:clean-ports && concurrently \"npm run dev -w server\" \"npm run dev -w client\"",
     "build": "npm run build -w client",
     "start": "npm run start -w server"
   },

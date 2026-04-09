@@ -67,8 +67,8 @@ textarea {
 .hero h1 {
   margin: 8px 0 12px;
   max-width: 12ch;
-  font-size: clamp(2.6rem, 5vw, 4.7rem);
-  line-height: 0.94;
+  font-size: clamp(1.35rem, 2.6vw, 2.1rem);
+  line-height: 1.12;
 }
 
 .hero-copy {
@@ -113,6 +113,26 @@ textarea {
 .chat-form {
   display: grid;
   gap: 12px;
+}
+
+.mode-toggle {
+  display: inline-flex;
+  gap: 8px;
+}
+
+.mode-toggle button {
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 251, 245, 0.95);
+  color: var(--text);
+  font-weight: 600;
+}
+
+.mode-toggle .toggle-active {
+  background: var(--highlight-soft);
+  border-color: rgba(214, 106, 42, 0.45);
+  color: #7b2f11;
 }
 
 textarea {

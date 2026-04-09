@@ -12,13 +12,13 @@ export const fetchMemory = async () => {
   return asJson(response);
 };
 
-export const sendChat = async ({ input, sessionId }) => {
+export const sendChat = async ({ input, sessionId, responseMode }) => {
   const response = await fetch('/api/chat', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
     },
-    body: JSON.stringify({ input, sessionId }),
+    body: JSON.stringify({ input, sessionId, responseMode }),
   });
 
   return asJson(response);

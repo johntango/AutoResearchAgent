@@ -40,6 +40,7 @@ export default function TracePanel({ result }) {
           <p className="footnote">
             Response ID chain: {result?.sessionId || 'no active session'}
           </p>
+          <h3>Tool call events</h3>
           <ul>
             {(result?.sdkItems || []).map((item) => (
               <li key={`${item.id}-${item.type}`}>
