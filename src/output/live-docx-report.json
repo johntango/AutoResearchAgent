@@ -1,0 +1,630 @@
+{
+  "runId": "run_1776182293988_a15d808f",
+  "status": "DONE",
+  "success": true,
+  "outputPath": "src/output/run_1776182293988_a15d808f/outputFormatted.docx",
+  "strategy": "target_style_overlay_docx",
+  "formattingSummary": {
+    "targetAbstractHeadingIndex": 4,
+    "submittedAbstractHeadingIndex": 5,
+    "formattedParagraphCount": 1
+  },
+  "targetParagraphs": [
+    {
+      "index": 0,
+      "text": "Design Methods",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 1,
+      "text": "John Smith [[0000-0002-3826-2204].and Pam Smith2 [0000-0002-5238-8227]",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 2,
+      "text": "1 Massachusetts Institute of Technology, Rm 1-250, Cambridge, MA 02229, USA",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 3,
+      "text": "2 CAD Tools Limited, 444 North Ave; New London, NY 10221, USAanybody@mit.edu",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 4,
+      "text": "Abstract. The history of design can be read as a sequence of changing answers to a deceptively simple question: what does it mean to “design”? Before design was a noun, it was an activity embedded in making. In pre-industrial contexts, the same individual or workshop typically conceived, detailed, and fabricated artifacts—from tools and garments to buildings and ships.",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 5,
+      "text": "Keywords: Design Methodologies, Axiomatic Design (AD), TRIZ,",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 6,
+      "text": "Introduction",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 7,
+      "text": "The history of design can be read as a sequence of changing answers to a deceptively simple question: what does it mean to “design”? Before design was a noun, it was an activity embedded in making. In pre-industrial contexts, the same individual or workshop typically conceived, detailed, and fabricated artifacts—from tools and garments to buildings and ships.",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 8,
+      "text": "Michael Polanyi’s [2] concept of tacit knowledge provides a powerful epistemic account of these practices.",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 10,
+      "text": "The Industrial Revolution began to decouple design from making.",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 12,
+      "text": "By the mid-twentieth century, the Design Methods Movement sought to elevate",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 13,
+      "text": "FirstGeneration Design Methods: Rational Problem Solving",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 14,
+      "text": "2.1The Design Methods Movement",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 15,
+      "text": "PostWorld War II societies confronted unprecedented complexity: largescale infrastructure, aerospace systems, urban planning, and information technologies. Against this backdrop, designers and engineers sought more explicit, rational ways to plan and coordinate design work. The 1962 Conference on Design Methods in London symbolized this shift, marking what Nigel Cross calls the birth of modern design methodology and the Design Methods Movement.",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 16,
+      "text": "2.2 Herbert Simon and the Science of the Artificial",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 17,
+      "text": "Herbert A. Simon’s The Sciences of the Artificial (1969; 3rd ed. 1996) crystallized this agenda.",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 18,
+      "text": "Simon’s “science of design” pursued:",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 19,
+      "text": "Abstraction: Representing problems in terms of formal structures that can be manipulated mathematically or computationally.",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 20,
+      "text": "Decomposition: Breaking complex problems into subproblems that can be addressed separately.",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 21,
+      "text": "2.3 Christopher Alexander and Structural Decomposition",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 22,
+      "text": "Christopher Alexander’s Notes on the Synthesis of Form (1964) represents a complementary,",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 23,
+      "text": "2.4 Epistemic Character of FirstGeneration Methods",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 24,
+      "text": "In ontological terms, firstgeneration methods treat design as:",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 25,
+      "text": "Deterministic: Given a correct formulation and sufficient rational effort, the process tends toward a welldefined solution or set of solutions.",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 26,
+      "text": "Domaingeneral: Despite contextual differences, design problems in engineering, planning, or management are seen as instances of the same underlying problemsolving logic.",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 27,
+      "text": "Sequential (if iterative): Analysis precedes synthesis; problem definition precedes solution generation.",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 28,
+      "text": "SecondGeneration Design Theory: Wicked Problems and Reflection",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 29,
+      "text": "3.1 Rittel, Wicked Problems, and IssueBased Design",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 30,
+      "text": "Horst Rittel, initially a participant in the early design methods movement, became one of its most incisive critics. Suh’s Axiomatic Design",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 31,
+      "text": "Nam P. Suh’s Axiomatic Design (AD), developed from the late 1970s onward, seeks a more explicitly theoretical foundation for engineering design. AD distinguishes four domains:",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 32,
+      "text": "Customer Needs (CN)",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 33,
+      "text": "Functional Requirements (FR)",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 34,
+      "text": "Design Parameters (DP)",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 35,
+      "text": "Process Variables (PV)",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 36,
+      "text": "Design is modeled as mappings between these domains, often represented as matrices (e.g., FR = [A]·DP). Suh proposes two axioms of good design:",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 37,
+      "text": "Independence Axiom: Maintain the independence of functional requirements; ideally, each FR is affected by only one DP.",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 38,
+      "text": "Information Axiom: Minimize the information content of the design, favoring simpler, more robust configurations.",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 41,
+      "text": "Sample Heading (Third Level). Only two levels of headings should be numbered. Lower level headings remain unnumbered; they are formatted as run-in headings.",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 42,
+      "text": "Sample Heading (Forth Level). The contribution should contain no more than four levels of headings. The following Table 1 gives a summary of all heading levels.",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 43,
+      "text": "Table 1. Table captions should be placed above the tables.",
+      "size": "",
+      "italic": false
+    }
+  ],
+  "submittedParagraphs": [
+    {
+      "index": 0,
+      "text": "Organizational Design using Data, Process and Organizational Mining",
+      "size": "21",
+      "italic": false
+    },
+    {
+      "index": 1,
+      "text": "John R Williams1, Pam Mantri2 and John Thomas2",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 2,
+      "text": "1 Massachusetts Institute of Technology, Rm 1-250, Cambridge, MA 02139, USA",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 3,
+      "text": "2 Cognitive Tools Limited, P.O. Box 695; 255 North Ave; New Rochelle, NY 10801, USA",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 4,
+      "text": "jrw@mit.edu",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 5,
+      "text": "Abstract. Traditional top-down organizational designs often suffer from inefficiencies, rigidity, and poor adaptability in the face of rapid technological change and global data flows. Organizations today must simultaneously manage fast-cycle changes while optimizing established business processes. This paper proposes a novel framework that integrates Axiomatic Design (AD) and Complex Adaptive Systems (CAS) to create dynamic, efficient, and data-driven organizational structures. By leveraging data, process, and organizational mining, organizations can proactively identify inefficiencies, optimize decision-making, and restructure business models. The AD–CAS framework offers a principled methodology for building resilient, adaptive, and analytically driven organizations. It enables self-optimization, real-time data insights, and structural flexibility in increasingly complex environments.",
+      "size": "20",
+      "italic": true
+    },
+    {
+      "index": 6,
+      "text": "Keywords: Organizational Design, Axiomatic Design, Complex Adaptive Systems, Data Mining, Process Mining, Organizational Mining",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 7,
+      "text": "Introduction",
+      "size": "18",
+      "italic": false
+    },
+    {
+      "index": 8,
+      "text": "Organizational design has continually evolved in response to globalization, technological advancements, and shifting management paradigms. Historically, organizations transitioned from informal, family-owned structures in the pre-industrial era to bureaucratic, hierarchical models during the Industrial Revolution. The 20th century introduced Human Relations Theory [1], Systems Thinking [2], and Matrix Structures, while the 21st century brought about Agile and Lean frameworks [3], AI-driven decision-making, and data-centric optimization [4, 5]. Despite these advancements, organizations become sclerotic over time, accumulating rigid, inefficient processes, that are poorly adapted to rapid technological and market changes [6].",
+      "size": "20",
+      "italic": false
+    },
+    {
+      "index": 9,
+      "text": "Herein we propose an integrated approach to organizational design by combining Axiomatic Design (AD) [7, 8] and Complex Adaptive Systems (CAS) [9]. AD provides a structured methodology for defining functional requirements (FRs) and design parameters (DPs) to ensure clarity, efficiency, and independence in organizational structures. Meanwhile, CAS principles enable organizations to develop self-organizing, adaptable, and resilient systems that respond dynamically to external changes.",
+      "size": "20",
+      "italic": false
+    },
+    {
+      "index": 10,
+      "text": "1.1 Inefficiencies and Resistance to Change",
+      "size": "20",
+      "italic": false
+    },
+    {
+      "index": 11,
+      "text": "Traditional organizational designs, historically rooted in hierarchical models, are increasingly unsuited for today’s dynamic and technologically driven environment. Key limitations include inefficiencies in hierarchical structures, resistance to change, inadequate adaptability to technological advances, and fragmented processes leading to poor data integration.",
+      "size": "20",
+      "italic": false
+    },
+    {
+      "index": 13,
+      "text": "Type of list 1",
+      "size": "20",
+      "italic": false
+    },
+    {
+      "index": 14,
+      "text": "Type of list 2",
+      "size": "20",
+      "italic": false
+    },
+    {
+      "index": 15,
+      "text": "Traditional hierarchical models, characterized by rigid authority layers and top-down decision flows, often neglect bottom-up information. Although they provide role clarity, they foster bureaucratic bottlenecks, slow decision-making, and dilute communication across levels, leading to misaligned goals and delayed strategic implementation. Such rigidity impairs responsiveness in fast-paced contexts. Techniques like continuous process-mining and organizational mining could mitigate these inefficiencies.",
+      "size": "20",
+      "italic": false
+    },
+    {
+      "index": 16,
+      "text": "As corporations age, they typically become “sclerotic” as new policies are layered on top of old ones. Longstanding policies and entrenched processes foster fear of change among employees and managers, emphasizing the status quo over innovation. This cultural inertia discourages proactive improvements, heightening vulnerability to market disruptions and technological shifts.",
+      "size": "20",
+      "italic": false
+    },
+    {
+      "index": 17,
+      "text": "References",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 18,
+      "text": "Omolawal, Samuel. Human Relations Theory: Implications for Effective Human Resource Management. 5. 1-8. (2023).",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 19,
+      "text": "Cabrera, Derek & Cabrera, Laura & Lobdell, Claire. Systems Thinking. Evaluation and program planning. 31. 299-310. 10.1016/j.evalprogplan.2007.12.001, (2008).",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 20,
+      "text": "Marbach, Phyllis & Rosser, Larri & Osvalds, Gundars & Lempia, David. Principles for Agile Development. INCOSE International Symposium. 25. 524-537 (2015).",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 21,
+      "text": "Morrison, R., Data-Driven Organization Design: Delivering Perpetual Performance Gains Through the Organizational System, 2nd Edition by Rupert Morrison (Author) Kogan Page Publishers, Oct 3, (2021)",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 22,
+      "text": "Worren, N., Organization design: simplifying complex systems. Routledge. (2018).",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 23,
+      "text": "Fidanboy, M., Organizations and complex adaptive systems. Routledge Focus on Business and Management, (2022)",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 24,
+      "text": "Suh, N. P., Axiomatic Design: Advances and Applications, ISBN-10. 0195134664 · ISBN-13. 978-0195134667 · Edition. 1st · Publisher. Oxford University Press, (2001)",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 25,
+      "text": "Suh, N. P., Complexity Theory, Oxford University Press, (2005)",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 26,
+      "text": "Holland, John. Complex Adaptive Systems. Journal of Systems Science and Complexity. 19. 10.1007/s11424-006-0001-z. (2006).",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 27,
+      "text": "Han, J., J. Pei, and H. Tong. Data Mining: Concepts and Techniques, Fourth Edition, 1–752, (2022). https://doi.org/10.1016/C2013-0-18660-6.",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 28,
+      "text": "van der Aalst, W. et al. Process Mining Manifesto. In: Daniel, F., Barkaoui, K., Dustdar, S. (eds) Business Process Management Workshops. BPM. Lecture Notes in Business Information Processing, vol 99. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-642-28108-2_19, (2011)",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 29,
+      "text": "Minseok Song, Wil M.P. van der Aalst, Towards comprehensive support for organizational mining, Decision Support Systems, Volume 46, Issue 1, 300-317, (2008)",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 30,
+      "text": "Gillian Tett, The silo effect: The peril of expertise and the promise of breaking down barriers. Simon & Schuster (2015)",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 31,
+      "text": "Geoffrey Moore’s Zone to Win: Organizing to Compete in an Age of Disruption. Diversion Books (2015)",
+      "size": "",
+      "italic": false
+    }
+  ],
+  "outputParagraphs": [
+    {
+      "index": 0,
+      "text": "Organizational Design using Data, Process and Organizational Mining",
+      "size": "21",
+      "italic": false
+    },
+    {
+      "index": 1,
+      "text": "John R Williams1, Pam Mantri2 and John Thomas2",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 2,
+      "text": "1 Massachusetts Institute of Technology, Rm 1-250, Cambridge, MA 02139, USA",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 3,
+      "text": "2 Cognitive Tools Limited, P.O. Box 695; 255 North Ave; New Rochelle, NY 10801, USA",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 4,
+      "text": "jrw@mit.edu",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 5,
+      "text": "Abstract. Traditional top-down organizational designs often suffer from inefficiencies, rigidity, and poor adaptability in the face of rapid technological change and global data flows. Organizations today must simultaneously manage fast-cycle changes while optimizing established business processes. This paper proposes a novel framework that integrates Axiomatic Design (AD) and Complex Adaptive Systems (CAS) to create dynamic, efficient, and data-driven organizational structures. By leveraging data, process, and organizational mining, organizations can proactively identify inefficiencies, optimize decision-making, and restructure business models. The AD–CAS framework offers a principled methodology for building resilient, adaptive, and analytically driven organizations. It enables self-optimization, real-time data insights, and structural flexibility in increasingly complex environments.",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 6,
+      "text": "Keywords: Organizational Design, Axiomatic Design, Complex Adaptive Systems, Data Mining, Process Mining, Organizational Mining",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 7,
+      "text": "Introduction",
+      "size": "18",
+      "italic": false
+    },
+    {
+      "index": 8,
+      "text": "Organizational design has continually evolved in response to globalization, technological advancements, and shifting management paradigms. Historically, organizations transitioned from informal, family-owned structures in the pre-industrial era to bureaucratic, hierarchical models during the Industrial Revolution. The 20th century introduced Human Relations Theory [1], Systems Thinking [2], and Matrix Structures, while the 21st century brought about Agile and Lean frameworks [3], AI-driven decision-making, and data-centric optimization [4, 5]. Despite these advancements, organizations become sclerotic over time, accumulating rigid, inefficient processes, that are poorly adapted to rapid technological and market changes [6].",
+      "size": "20",
+      "italic": false
+    },
+    {
+      "index": 9,
+      "text": "Herein we propose an integrated approach to organizational design by combining Axiomatic Design (AD) [7, 8] and Complex Adaptive Systems (CAS) [9]. AD provides a structured methodology for defining functional requirements (FRs) and design parameters (DPs) to ensure clarity, efficiency, and independence in organizational structures. Meanwhile, CAS principles enable organizations to develop self-organizing, adaptable, and resilient systems that respond dynamically to external changes.",
+      "size": "20",
+      "italic": false
+    },
+    {
+      "index": 10,
+      "text": "1.1 Inefficiencies and Resistance to Change",
+      "size": "20",
+      "italic": false
+    },
+    {
+      "index": 11,
+      "text": "Traditional organizational designs, historically rooted in hierarchical models, are increasingly unsuited for today’s dynamic and technologically driven environment. Key limitations include inefficiencies in hierarchical structures, resistance to change, inadequate adaptability to technological advances, and fragmented processes leading to poor data integration.",
+      "size": "20",
+      "italic": false
+    },
+    {
+      "index": 13,
+      "text": "Type of list 1",
+      "size": "20",
+      "italic": false
+    },
+    {
+      "index": 14,
+      "text": "Type of list 2",
+      "size": "20",
+      "italic": false
+    },
+    {
+      "index": 15,
+      "text": "Traditional hierarchical models, characterized by rigid authority layers and top-down decision flows, often neglect bottom-up information. Although they provide role clarity, they foster bureaucratic bottlenecks, slow decision-making, and dilute communication across levels, leading to misaligned goals and delayed strategic implementation. Such rigidity impairs responsiveness in fast-paced contexts. Techniques like continuous process-mining and organizational mining could mitigate these inefficiencies.",
+      "size": "20",
+      "italic": false
+    },
+    {
+      "index": 16,
+      "text": "As corporations age, they typically become “sclerotic” as new policies are layered on top of old ones. Longstanding policies and entrenched processes foster fear of change among employees and managers, emphasizing the status quo over innovation. This cultural inertia discourages proactive improvements, heightening vulnerability to market disruptions and technological shifts.",
+      "size": "20",
+      "italic": false
+    },
+    {
+      "index": 17,
+      "text": "References",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 18,
+      "text": "Omolawal, Samuel. Human Relations Theory: Implications for Effective Human Resource Management. 5. 1-8. (2023).",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 19,
+      "text": "Cabrera, Derek & Cabrera, Laura & Lobdell, Claire. Systems Thinking. Evaluation and program planning. 31. 299-310. 10.1016/j.evalprogplan.2007.12.001, (2008).",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 20,
+      "text": "Marbach, Phyllis & Rosser, Larri & Osvalds, Gundars & Lempia, David. Principles for Agile Development. INCOSE International Symposium. 25. 524-537 (2015).",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 21,
+      "text": "Morrison, R., Data-Driven Organization Design: Delivering Perpetual Performance Gains Through the Organizational System, 2nd Edition by Rupert Morrison (Author) Kogan Page Publishers, Oct 3, (2021)",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 22,
+      "text": "Worren, N., Organization design: simplifying complex systems. Routledge. (2018).",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 23,
+      "text": "Fidanboy, M., Organizations and complex adaptive systems. Routledge Focus on Business and Management, (2022)",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 24,
+      "text": "Suh, N. P., Axiomatic Design: Advances and Applications, ISBN-10. 0195134664 · ISBN-13. 978-0195134667 · Edition. 1st · Publisher. Oxford University Press, (2001)",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 25,
+      "text": "Suh, N. P., Complexity Theory, Oxford University Press, (2005)",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 26,
+      "text": "Holland, John. Complex Adaptive Systems. Journal of Systems Science and Complexity. 19. 10.1007/s11424-006-0001-z. (2006).",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 27,
+      "text": "Han, J., J. Pei, and H. Tong. Data Mining: Concepts and Techniques, Fourth Edition, 1–752, (2022). https://doi.org/10.1016/C2013-0-18660-6.",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 28,
+      "text": "van der Aalst, W. et al. Process Mining Manifesto. In: Daniel, F., Barkaoui, K., Dustdar, S. (eds) Business Process Management Workshops. BPM. Lecture Notes in Business Information Processing, vol 99. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-642-28108-2_19, (2011)",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 29,
+      "text": "Minseok Song, Wil M.P. van der Aalst, Towards comprehensive support for organizational mining, Decision Support Systems, Volume 46, Issue 1, 300-317, (2008)",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 30,
+      "text": "Gillian Tett, The silo effect: The peril of expertise and the promise of breaking down barriers. Simon & Schuster (2015)",
+      "size": "",
+      "italic": false
+    },
+    {
+      "index": 31,
+      "text": "Geoffrey Moore’s Zone to Win: Organizing to Compete in an Age of Disruption. Diversion Books (2015)",
+      "size": "",
+      "italic": false
+    }
+  ]
+}

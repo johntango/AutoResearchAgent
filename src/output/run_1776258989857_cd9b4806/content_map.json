@@ -1,0 +1,64 @@
+{
+  "title": "Submitted",
+  "authors": [
+    "Dana Lee",
+    "Jordan Patel"
+  ],
+  "affiliations": [
+    "Prototype Systems Lab"
+  ],
+  "abstract": "This prototype evaluates how supervisor-orchestrated agents can reformat conference papers while preserving content.",
+  "keywords": [
+    "document reformatting",
+    "agent graph",
+    "workflow orchestration"
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "level": 1,
+      "blocks": 4
+    },
+    {
+      "id": "method",
+      "title": "Method",
+      "level": 1,
+      "blocks": 5
+    },
+    {
+      "id": "results",
+      "title": "Results",
+      "level": 1,
+      "blocks": 3
+    },
+    {
+      "id": "conclusion",
+      "title": "Conclusion",
+      "level": 1,
+      "blocks": 2
+    }
+  ],
+  "lists": [],
+  "tables": [],
+  "figures": [],
+  "references": [
+    "Reference A",
+    "Reference B",
+    "Reference C"
+  ],
+  "frontMatter": {
+    "title": true,
+    "authors": true,
+    "affiliations": true,
+    "abstract": true,
+    "keywords": true
+  },
+  "metadata": {
+    "path": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/submitted.docx",
+    "name": "submitted.docx",
+    "extension": ".docx",
+    "sizeBytes": 65426,
+    "modifiedAt": "2026-04-15T10:35:53.778Z"
+  }
+}

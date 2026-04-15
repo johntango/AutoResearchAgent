@@ -1,0 +1,69 @@
+{
+  "sectionOrder": [
+    "title",
+    "authors",
+    "affiliations",
+    "abstract",
+    "keywords",
+    "body",
+    "references"
+  ],
+  "headingPolicy": {
+    "numberingDepth": 2,
+    "styleNames": [
+      "Heading1",
+      "Heading2"
+    ],
+    "lowerLevels": "run_in"
+  },
+  "captionPolicy": {
+    "tables": "above",
+    "figures": "below"
+  },
+  "referencePolicy": {
+    "location": "end",
+    "style": "References",
+    "numbering": "sequential"
+  },
+  "frontMatterPolicy": {
+    "order": [
+      "title",
+      "authors",
+      "affiliations",
+      "abstract",
+      "keywords"
+    ],
+    "abstractBeforeKeywords": true,
+    "titleStyle": "Title",
+    "authorStyle": "Author"
+  },
+  "structureRequirements": {
+    "required": [
+      "title",
+      "authors",
+      "affiliations",
+      "abstract",
+      "keywords",
+      "body",
+      "references"
+    ],
+    "optional": [
+      "lists",
+      "tables",
+      "figures"
+    ]
+  },
+  "blockPlan": [
+    "title",
+    "authors",
+    "affiliations",
+    "abstract",
+    "keywords",
+    "intro",
+    "method",
+    "results",
+    "conclusion",
+    "references"
+  ],
+  "repairHistory": []
+}

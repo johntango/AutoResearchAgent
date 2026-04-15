@@ -1,0 +1,112 @@
+{
+  "runId": "run_1776183915634_977e72a0",
+  "outputPath": "src/output/run_1776183915634_977e72a0/outputFormatted.docx",
+  "outputAuthor": {
+    "text": "John R Williams1, Pam Mantri2 and John Thomas2",
+    "style": "author",
+    "runs": [
+      {
+        "text": "John R Williams",
+        "bold": false,
+        "italic": false,
+        "vertAlign": ""
+      },
+      {
+        "text": "1",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "superscript"
+      },
+      {
+        "text": ", P",
+        "bold": false,
+        "italic": false,
+        "vertAlign": ""
+      },
+      {
+        "text": "am Mantri",
+        "bold": false,
+        "italic": false,
+        "vertAlign": ""
+      },
+      {
+        "text": "2",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "superscript"
+      },
+      {
+        "text": " ",
+        "bold": false,
+        "italic": false,
+        "vertAlign": ""
+      },
+      {
+        "text": "and ",
+        "bold": false,
+        "italic": false,
+        "vertAlign": ""
+      },
+      {
+        "text": "John Thomas",
+        "bold": false,
+        "italic": false,
+        "vertAlign": ""
+      },
+      {
+        "text": "2",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "superscript"
+      },
+      {
+        "text": " ",
+        "bold": false,
+        "italic": false,
+        "vertAlign": ""
+      }
+    ]
+  },
+  "outputAbstract": {
+    "text": "Abstract. Traditional top-down organizational designs often suffer from inefficiencies, rigidity, and poor adaptability in the face of rapid technological change and global data flows. Organizations today must simultaneously manage fast-cycle changes while optimizing established business processes. This paper proposes a novel framework that integrates Axiomatic Design (AD) and Complex Adaptive Systems (CAS) to create dynamic, efficient, and data-driven organizational structures. By leveraging data, process, and organizational mining, organizations can proactively identify inefficiencies, optimize decision-making, and restructure business models. The AD–CAS framework offers a principled methodology for building resilient, adaptive, and analytically driven organizations. It enables self-optimization, real-time data insights, and structural flexibility in increasingly complex environments.",
+    "style": "abstract",
+    "runs": [
+      {
+        "text": "Abstract. ",
+        "bold": true,
+        "italic": false,
+        "vertAlign": ""
+      },
+      {
+        "text": "Traditional top-down organizational designs often suffer from inefficiencies, rigidity, and poor adaptability in the face of rapid technological change and global data flows. Organizations today must simultaneously manage fast-cycle changes while optimizing established business processes. This paper proposes a novel framework that integrates Axiomatic Design (AD)",
+        "bold": false,
+        "italic": false,
+        "vertAlign": ""
+      },
+      {
+        "text": " and",
+        "bold": false,
+        "italic": false,
+        "vertAlign": ""
+      },
+      {
+        "text": " Complex Adaptive Systems (CAS",
+        "bold": false,
+        "italic": false,
+        "vertAlign": ""
+      },
+      {
+        "text": ") to",
+        "bold": false,
+        "italic": false,
+        "vertAlign": ""
+      },
+      {
+        "text": " create dynamic, efficient, and data-driven organizational structures. By leveraging data, process, and organizational mining, organizations can proactively identify inefficiencies, optimize decision-making, and restructure business models. The AD–CAS framework offers a principled methodology for building resilient, adaptive, and analytically driven organizations. It enables self-optimization, real-time data insights, and structural flexibility in increasingly complex environments.",
+        "bold": false,
+        "italic": false,
+        "vertAlign": ""
+      }
+    ]
+  }
+}

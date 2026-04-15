@@ -1,0 +1,146 @@
+{
+  "trace": [
+    {
+      "step": 1,
+      "agent": "templateProfiler",
+      "timestamp": "2026-04-15T13:09:30.616Z",
+      "inputSummary": {
+        "targetPath": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/target.docx",
+        "conferenceFlavor": "generic_conference"
+      },
+      "outputSummary": {
+        "confidence": 0.9,
+        "issueCount": 0
+      },
+      "confidence": 0.9,
+      "issues": []
+    },
+    {
+      "step": 2,
+      "agent": "sourceAnalyzer",
+      "timestamp": "2026-04-15T13:09:33.284Z",
+      "inputSummary": {
+        "submittedPath": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/submitted.docx",
+        "previousRetries": 0
+      },
+      "outputSummary": {
+        "confidence": 0.87,
+        "sectionCount": 4,
+        "referenceCount": 3
+      },
+      "confidence": 0.87,
+      "issues": []
+    },
+    {
+      "step": 3,
+      "agent": "structureMapper",
+      "timestamp": "2026-04-15T13:09:41.371Z",
+      "inputSummary": {
+        "templateFlavor": "generic_conference",
+        "sectionCount": 4
+      },
+      "outputSummary": {
+        "confidence": 0.9,
+        "plannedBlockCount": 10
+      },
+      "confidence": 0.9,
+      "issues": []
+    },
+    {
+      "step": 4,
+      "agent": "planValidator",
+      "timestamp": "2026-04-15T13:09:45.156Z",
+      "inputSummary": {
+        "blockPlanLength": 10
+      },
+      "outputSummary": {
+        "confidence": 0.98,
+        "valid": true
+      },
+      "confidence": 0.98,
+      "issues": []
+    },
+    {
+      "step": 5,
+      "agent": "documentRebuilder",
+      "timestamp": "2026-04-15T13:09:46.354Z",
+      "inputSummary": {
+        "outputDir": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/src/output/run_1776258567503_f1477176",
+        "repairCount": 0
+      },
+      "outputSummary": {
+        "outputPath": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/src/output/run_1776258567503_f1477176/outputFormatted.docx",
+        "orderedBlockCount": 10
+      },
+      "confidence": 0.86,
+      "issues": []
+    },
+    {
+      "step": 6,
+      "agent": "qaValidator",
+      "timestamp": "2026-04-15T13:09:50.585Z",
+      "inputSummary": {
+        "outputPath": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/src/output/run_1776258567503_f1477176/outputFormatted.docx",
+        "repairAttempts": 0
+      },
+      "outputSummary": {
+        "confidence": 0.96,
+        "passed": true,
+        "repairable": false
+      },
+      "confidence": 0.96,
+      "issues": []
+    }
+  ],
+  "decisions": [
+    {
+      "timestamp": "2026-04-15T13:09:30.616Z",
+      "fromStatus": "INIT",
+      "decision": "templateProfiler",
+      "rationale": "Workflow is in INIT status with no template profile artifact or confidence established, and the only allowed agent is templateProfiler. This matches the fallback decision for initialization.",
+      "nextStatus": "INIT"
+    },
+    {
+      "timestamp": "2026-04-15T13:09:33.283Z",
+      "fromStatus": "PROFILED",
+      "decision": "sourceAnalyzer",
+      "rationale": "Workflow is in PROFILED state with templateProfile present, no source analysis completed yet, no retries used, and no escalation required. This matches the fallback decision to analyze submitted content next.",
+      "nextStatus": "PROFILED"
+    },
+    {
+      "timestamp": "2026-04-15T13:09:35.427Z",
+      "fromStatus": "ANALYZED",
+      "decision": "structureMapper",
+      "rationale": "Workflow status is ANALYZED, template profile and content map are present, and no escalation or retry concerns exist. The next step is structure mapping, matching the fallback decision.",
+      "nextStatus": "ANALYZED"
+    },
+    {
+      "timestamp": "2026-04-15T13:09:43.787Z",
+      "fromStatus": "MAPPED",
+      "decision": "planValidator",
+      "rationale": "Transformation plan is present and the workflow status is MAPPED, so the next step is to validate the plan before rebuilding.",
+      "nextStatus": "MAPPED"
+    },
+    {
+      "timestamp": "2026-04-15T13:09:46.276Z",
+      "fromStatus": "PLAN_VALID",
+      "decision": "documentRebuilder",
+      "rationale": "Validated plan is ready for rebuild.",
+      "nextStatus": "PLAN_VALID"
+    },
+    {
+      "timestamp": "2026-04-15T13:09:48.841Z",
+      "fromStatus": "REBUILT",
+      "decision": "qaValidator",
+      "rationale": "Status is REBUILT and no QA report exists yet; the rebuilt artifact must be validated before completion, matching the fallback decision.",
+      "nextStatus": "REBUILT"
+    },
+    {
+      "timestamp": "2026-04-15T13:09:52.433Z",
+      "fromStatus": "QA_PASSED",
+      "decision": "done",
+      "rationale": "QA passed, no issues or escalation are present, required artifacts exist, and the only allowed agent is done.",
+      "nextStatus": "DONE"
+    }
+  ]
+}

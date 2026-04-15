@@ -1,0 +1,134 @@
+{
+  "strategy": "target_style_overlay_docx",
+  "notes": "Rebuild emits a real DOCX artifact and overlays target paragraph, font, and spacing formatting across detected document structures while preserving submitted content.",
+  "orderedBlocks": [
+    {
+      "type": "title",
+      "value": "Submitted"
+    },
+    {
+      "type": "authors",
+      "value": [
+        "Dana Lee",
+        "Jordan Patel"
+      ]
+    },
+    {
+      "type": "affiliations",
+      "value": [
+        "Prototype Systems Lab"
+      ]
+    },
+    {
+      "type": "abstract",
+      "value": "This prototype evaluates how supervisor-orchestrated agents can reformat conference papers while preserving content."
+    },
+    {
+      "type": "keywords",
+      "value": [
+        "document reformatting",
+        "agent graph",
+        "workflow orchestration"
+      ]
+    },
+    {
+      "type": "section",
+      "id": "intro",
+      "title": "Introduction",
+      "headingStyle": "Heading1",
+      "blockCount": 4
+    },
+    {
+      "type": "section",
+      "id": "method",
+      "title": "Method",
+      "headingStyle": "Heading1",
+      "blockCount": 5
+    },
+    {
+      "type": "section",
+      "id": "results",
+      "title": "Results",
+      "headingStyle": "Heading1",
+      "blockCount": 3
+    },
+    {
+      "type": "section",
+      "id": "conclusion",
+      "title": "Conclusion",
+      "headingStyle": "Heading1",
+      "blockCount": 2
+    },
+    {
+      "type": "references",
+      "value": [
+        "Reference A",
+        "Reference B",
+        "Reference C"
+      ]
+    }
+  ],
+  "styleOverlay": {
+    "headingPolicy": {
+      "numberingDepth": 2,
+      "styleNames": [
+        "Heading1",
+        "Heading2"
+      ],
+      "lowerLevels": "run_in"
+    },
+    "captionPolicy": {
+      "tables": "above",
+      "figures": "below"
+    },
+    "referencePolicy": {
+      "location": "end",
+      "style": "References",
+      "numbering": "sequential"
+    }
+  },
+  "outputArtifact": {
+    "kind": "docx",
+    "source": "document_structure_style_overlay",
+    "fileName": "outputFormatted.docx"
+  },
+  "formattingSummary": {
+    "formattedParagraphCount": 31,
+    "roleCounts": {
+      "title": 1,
+      "author": 1,
+      "affiliation": 1,
+      "email": 1,
+      "abstract": 1,
+      "keywords": 1,
+      "heading1": 2,
+      "bodyFirstAfterHeading": 3,
+      "bodyIndented": 2,
+      "bulletList": 2,
+      "heading2": 1,
+      "referencesHeading": 1,
+      "referenceItem": 14
+    },
+    "targetExemplarStyles": {
+      "title": "papertitle",
+      "author": "author",
+      "affiliation": "address",
+      "email": "address",
+      "abstract": "abstract",
+      "keywords": "keywords",
+      "heading1": "heading1",
+      "heading2": "heading2",
+      "heading3": "Heading3",
+      "heading4": "Heading4",
+      "bodyFirstAfterHeading": "p1a",
+      "bodyIndented": "",
+      "body": "",
+      "tableCaption": "tablecaption",
+      "figureCaption": "figurecaption",
+      "referencesHeading": "heading2",
+      "bottomHeading": "heading2",
+      "referenceItem": "referenceitem"
+    }
+  },
+  "repairHistory": []
+}

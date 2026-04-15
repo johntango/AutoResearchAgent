@@ -1,0 +1,425 @@
+{
+  "runId": "run_1776170135627_d620eba0",
+  "status": "ESCALATED",
+  "success": false,
+  "files": {
+    "targetPath": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/examples/fixtures/target-success.docx",
+    "submittedPath": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/examples/fixtures/submitted-ambiguous-missing-abstract-missing-references-escalate.docx",
+    "outputPath": null,
+    "outputDir": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/src/output/run_1776170135627_d620eba0"
+  },
+  "artifacts": {
+    "templateProfile": {
+      "templateName": "target-success.docx",
+      "metadata": {
+        "path": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/examples/fixtures/target-success.docx",
+        "name": "target-success.docx",
+        "extension": ".docx",
+        "sizeBytes": 42,
+        "modifiedAt": "2026-04-14T12:35:35.627Z"
+      },
+      "conferenceFlavor": "generic_conference",
+      "styleSignals": {
+        "headingNumberDepth": 2,
+        "tableCaptionPosition": "above",
+        "figureCaptionPosition": "below",
+        "abstractBeforeKeywords": true,
+        "referencesAtEnd": true,
+        "columnLayout": 1,
+        "frontMatterAlignment": "left"
+      },
+      "styleInventory": {
+        "titleStyle": "Title",
+        "authorStyle": "Author",
+        "affiliationStyle": "Affiliation",
+        "abstractStyle": "Abstract",
+        "keywordStyle": "Keywords",
+        "heading1Style": "Heading1",
+        "heading2Style": "Heading2",
+        "bodyStyle": "BodyText",
+        "referenceStyle": "References"
+      }
+    },
+    "contentMap": {
+      "title": "Submitted Ambiguous Missing Abstract Missing References Escalate",
+      "authors": [
+        "Dana Lee",
+        "Jordan Patel"
+      ],
+      "affiliations": [
+        "Prototype Systems Lab"
+      ],
+      "abstract": "",
+      "keywords": [
+        "document reformatting",
+        "agent graph",
+        "workflow orchestration"
+      ],
+      "sections": [
+        {
+          "id": "intro",
+          "title": "Introduction",
+          "level": 1,
+          "blocks": 4
+        },
+        {
+          "id": "method",
+          "title": "Method",
+          "level": 1,
+          "blocks": 5
+        },
+        {
+          "id": "results",
+          "title": "Results",
+          "level": 1,
+          "blocks": 3
+        },
+        {
+          "id": "conclusion",
+          "title": "Conclusion",
+          "level": 1,
+          "blocks": 2
+        }
+      ],
+      "tables": [
+        {
+          "id": "table-1",
+          "caption": "Ablation results",
+          "desiredCaptionPosition": "above"
+        }
+      ],
+      "figures": [
+        {
+          "id": "figure-1",
+          "caption": "System overview"
+        }
+      ],
+      "references": [],
+      "frontMatter": {
+        "title": true,
+        "authors": true,
+        "affiliations": true,
+        "abstract": false,
+        "keywords": true
+      },
+      "metadata": {
+        "path": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/examples/fixtures/submitted-ambiguous-missing-abstract-missing-references-escalate.docx",
+        "name": "submitted-ambiguous-missing-abstract-missing-references-escalate.docx",
+        "extension": ".docx",
+        "sizeBytes": 92,
+        "modifiedAt": "2026-04-14T12:35:35.627Z"
+      }
+    },
+    "transformationPlan": null,
+    "qaReport": null,
+    "reviewItems": [
+      {
+        "id": "review-1",
+        "reason": "Source analysis retry budget exhausted with low confidence.",
+        "action": "manual_review_required",
+        "createdAt": "2026-04-14T12:35:35.627Z"
+      },
+      {
+        "id": "review-2",
+        "reason": "Semantic structure extraction is ambiguous and may need another analysis pass.",
+        "action": "manual_review_required",
+        "createdAt": "2026-04-14T12:35:35.627Z"
+      },
+      {
+        "id": "review-3",
+        "reason": "Abstract was not confidently detected in submitted document.",
+        "action": "manual_review_required",
+        "createdAt": "2026-04-14T12:35:35.627Z"
+      },
+      {
+        "id": "review-4",
+        "reason": "References section is missing or incomplete in submitted content.",
+        "action": "manual_review_required",
+        "createdAt": "2026-04-14T12:35:35.627Z"
+      }
+    ],
+    "rebuildSummary": null,
+    "planValidation": null
+  },
+  "confidence": {
+    "templateProfile": 0.9,
+    "sourceAnalysis": 0.58,
+    "structureMapping": 0,
+    "rebuild": 0,
+    "qa": 0,
+    "repair": 0
+  },
+  "retries": {
+    "sourceAnalyzer": 2,
+    "structureMapper": 0,
+    "documentRebuilder": 0,
+    "repairAgent": 0
+  },
+  "retryLimits": {
+    "sourceAnalyzer": 2,
+    "structureMapper": 2,
+    "documentRebuilder": 2,
+    "repairAgent": 2
+  },
+  "issues": [
+    {
+      "category": "ambiguous_content",
+      "severity": "medium",
+      "message": "Semantic structure extraction is ambiguous and may need another analysis pass."
+    },
+    {
+      "category": "semantic_structure",
+      "severity": "medium",
+      "message": "Abstract was not confidently detected in submitted document."
+    },
+    {
+      "category": "semantic_structure",
+      "severity": "medium",
+      "message": "References section is missing or incomplete in submitted content."
+    },
+    {
+      "category": "ambiguous_content",
+      "severity": "medium",
+      "message": "Semantic structure extraction is ambiguous and may need another analysis pass."
+    },
+    {
+      "category": "semantic_structure",
+      "severity": "medium",
+      "message": "Abstract was not confidently detected in submitted document."
+    },
+    {
+      "category": "semantic_structure",
+      "severity": "medium",
+      "message": "References section is missing or incomplete in submitted content."
+    },
+    {
+      "category": "ambiguous_content",
+      "severity": "medium",
+      "message": "Semantic structure extraction is ambiguous and may need another analysis pass."
+    },
+    {
+      "category": "semantic_structure",
+      "severity": "medium",
+      "message": "Abstract was not confidently detected in submitted document."
+    },
+    {
+      "category": "semantic_structure",
+      "severity": "medium",
+      "message": "References section is missing or incomplete in submitted content."
+    },
+    {
+      "category": "invalid_input",
+      "severity": "high",
+      "message": "Source analysis retry budget exhausted with low confidence."
+    },
+    {
+      "category": "invalid_input",
+      "severity": "high",
+      "message": "Semantic structure extraction is ambiguous and may need another analysis pass."
+    },
+    {
+      "category": "invalid_input",
+      "severity": "high",
+      "message": "Abstract was not confidently detected in submitted document."
+    },
+    {
+      "category": "invalid_input",
+      "severity": "high",
+      "message": "References section is missing or incomplete in submitted content."
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "agent": "templateProfiler",
+      "timestamp": "2026-04-14T12:35:35.627Z",
+      "inputSummary": {
+        "targetPath": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/examples/fixtures/target-success.docx",
+        "conferenceFlavor": "generic_conference"
+      },
+      "outputSummary": {
+        "confidence": 0.9,
+        "issueCount": 0
+      },
+      "confidence": 0.9,
+      "issues": []
+    },
+    {
+      "step": 2,
+      "agent": "sourceAnalyzer",
+      "timestamp": "2026-04-14T12:35:35.627Z",
+      "inputSummary": {
+        "submittedPath": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/examples/fixtures/submitted-ambiguous-missing-abstract-missing-references-escalate.docx",
+        "previousRetries": 0
+      },
+      "outputSummary": {
+        "confidence": 0.58,
+        "sectionCount": 4,
+        "referenceCount": 0
+      },
+      "confidence": 0.58,
+      "issues": [
+        {
+          "category": "ambiguous_content",
+          "severity": "medium",
+          "message": "Semantic structure extraction is ambiguous and may need another analysis pass."
+        },
+        {
+          "category": "semantic_structure",
+          "severity": "medium",
+          "message": "Abstract was not confidently detected in submitted document."
+        },
+        {
+          "category": "semantic_structure",
+          "severity": "medium",
+          "message": "References section is missing or incomplete in submitted content."
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "agent": "sourceAnalyzer",
+      "timestamp": "2026-04-14T12:35:35.627Z",
+      "inputSummary": {
+        "submittedPath": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/examples/fixtures/submitted-ambiguous-missing-abstract-missing-references-escalate.docx",
+        "previousRetries": 1
+      },
+      "outputSummary": {
+        "confidence": 0.58,
+        "sectionCount": 4,
+        "referenceCount": 0
+      },
+      "confidence": 0.58,
+      "issues": [
+        {
+          "category": "ambiguous_content",
+          "severity": "medium",
+          "message": "Semantic structure extraction is ambiguous and may need another analysis pass."
+        },
+        {
+          "category": "semantic_structure",
+          "severity": "medium",
+          "message": "Abstract was not confidently detected in submitted document."
+        },
+        {
+          "category": "semantic_structure",
+          "severity": "medium",
+          "message": "References section is missing or incomplete in submitted content."
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "agent": "sourceAnalyzer",
+      "timestamp": "2026-04-14T12:35:35.627Z",
+      "inputSummary": {
+        "submittedPath": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/examples/fixtures/submitted-ambiguous-missing-abstract-missing-references-escalate.docx",
+        "previousRetries": 2
+      },
+      "outputSummary": {
+        "confidence": 0.58,
+        "sectionCount": 4,
+        "referenceCount": 0
+      },
+      "confidence": 0.58,
+      "issues": [
+        {
+          "category": "ambiguous_content",
+          "severity": "medium",
+          "message": "Semantic structure extraction is ambiguous and may need another analysis pass."
+        },
+        {
+          "category": "semantic_structure",
+          "severity": "medium",
+          "message": "Abstract was not confidently detected in submitted document."
+        },
+        {
+          "category": "semantic_structure",
+          "severity": "medium",
+          "message": "References section is missing or incomplete in submitted content."
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "agent": "exceptionHandler",
+      "timestamp": "2026-04-14T12:35:35.628Z",
+      "inputSummary": {
+        "reasonCount": 4
+      },
+      "outputSummary": {
+        "reviewItemCount": 4
+      },
+      "confidence": 1,
+      "issues": [
+        {
+          "category": "invalid_input",
+          "severity": "high",
+          "message": "Source analysis retry budget exhausted with low confidence."
+        },
+        {
+          "category": "invalid_input",
+          "severity": "high",
+          "message": "Semantic structure extraction is ambiguous and may need another analysis pass."
+        },
+        {
+          "category": "invalid_input",
+          "severity": "high",
+          "message": "Abstract was not confidently detected in submitted document."
+        },
+        {
+          "category": "invalid_input",
+          "severity": "high",
+          "message": "References section is missing or incomplete in submitted content."
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "timestamp": "2026-04-14T12:35:35.627Z",
+      "fromStatus": "INIT",
+      "decision": "templateProfiler",
+      "rationale": "Workflow initialization requires template profiling.",
+      "nextStatus": "INIT"
+    },
+    {
+      "timestamp": "2026-04-14T12:35:35.627Z",
+      "fromStatus": "PROFILED",
+      "decision": "sourceAnalyzer",
+      "rationale": "Template profile exists; analyze submitted content next.",
+      "nextStatus": "PROFILED"
+    },
+    {
+      "timestamp": "2026-04-14T12:35:35.627Z",
+      "fromStatus": "ANALYZED",
+      "decision": "sourceAnalyzer",
+      "rationale": "Analysis confidence below threshold; retry Loop A.",
+      "nextStatus": "ANALYZED"
+    },
+    {
+      "timestamp": "2026-04-14T12:35:35.627Z",
+      "fromStatus": "ANALYZED",
+      "decision": "sourceAnalyzer",
+      "rationale": "Analysis confidence below threshold; retry Loop A.",
+      "nextStatus": "ANALYZED"
+    },
+    {
+      "timestamp": "2026-04-14T12:35:35.627Z",
+      "fromStatus": "ANALYZED",
+      "decision": "exceptionHandler",
+      "rationale": "Source analysis retry budget exhausted with low confidence.",
+      "nextStatus": "ANALYZED"
+    }
+  ],
+  "escalation": {
+    "required": true,
+    "reasons": [
+      "Source analysis retry budget exhausted with low confidence."
+    ]
+  },
+  "metadata": {
+    "createdAt": "2026-04-14T12:35:35.627Z",
+    "updatedAt": "2026-04-14T12:35:35.628Z"
+  }
+}

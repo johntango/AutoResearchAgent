@@ -1,0 +1,454 @@
+{
+  "runId": "run_1776170135620_9b0cc755",
+  "status": "DONE",
+  "success": true,
+  "files": {
+    "targetPath": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/examples/fixtures/target-success.docx",
+    "submittedPath": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/examples/fixtures/submitted-success.docx",
+    "outputPath": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/src/output/run_1776170135620_9b0cc755/outputFormatted.docx.placeholder.txt",
+    "outputDir": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/src/output/run_1776170135620_9b0cc755"
+  },
+  "artifacts": {
+    "templateProfile": {
+      "templateName": "target-success.docx",
+      "metadata": {
+        "path": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/examples/fixtures/target-success.docx",
+        "name": "target-success.docx",
+        "extension": ".docx",
+        "sizeBytes": 42,
+        "modifiedAt": "2026-04-14T12:35:35.620Z"
+      },
+      "conferenceFlavor": "generic_conference",
+      "styleSignals": {
+        "headingNumberDepth": 2,
+        "tableCaptionPosition": "above",
+        "figureCaptionPosition": "below",
+        "abstractBeforeKeywords": true,
+        "referencesAtEnd": true,
+        "columnLayout": 1,
+        "frontMatterAlignment": "left"
+      },
+      "styleInventory": {
+        "titleStyle": "Title",
+        "authorStyle": "Author",
+        "affiliationStyle": "Affiliation",
+        "abstractStyle": "Abstract",
+        "keywordStyle": "Keywords",
+        "heading1Style": "Heading1",
+        "heading2Style": "Heading2",
+        "bodyStyle": "BodyText",
+        "referenceStyle": "References"
+      }
+    },
+    "contentMap": {
+      "title": "Submitted Success",
+      "authors": [
+        "Dana Lee",
+        "Jordan Patel"
+      ],
+      "affiliations": [
+        "Prototype Systems Lab"
+      ],
+      "abstract": "This prototype evaluates how supervisor-orchestrated agents can reformat conference papers while preserving content.",
+      "keywords": [
+        "document reformatting",
+        "agent graph",
+        "workflow orchestration"
+      ],
+      "sections": [
+        {
+          "id": "intro",
+          "title": "Introduction",
+          "level": 1,
+          "blocks": 4
+        },
+        {
+          "id": "method",
+          "title": "Method",
+          "level": 1,
+          "blocks": 5
+        },
+        {
+          "id": "results",
+          "title": "Results",
+          "level": 1,
+          "blocks": 3
+        },
+        {
+          "id": "conclusion",
+          "title": "Conclusion",
+          "level": 1,
+          "blocks": 2
+        }
+      ],
+      "tables": [
+        {
+          "id": "table-1",
+          "caption": "Ablation results",
+          "desiredCaptionPosition": "above"
+        }
+      ],
+      "figures": [
+        {
+          "id": "figure-1",
+          "caption": "System overview"
+        }
+      ],
+      "references": [
+        "Reference A",
+        "Reference B",
+        "Reference C"
+      ],
+      "frontMatter": {
+        "title": true,
+        "authors": true,
+        "affiliations": true,
+        "abstract": true,
+        "keywords": true
+      },
+      "metadata": {
+        "path": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/examples/fixtures/submitted-success.docx",
+        "name": "submitted-success.docx",
+        "extension": ".docx",
+        "sizeBytes": 45,
+        "modifiedAt": "2026-04-14T12:35:35.621Z"
+      }
+    },
+    "transformationPlan": {
+      "sectionOrder": [
+        "title",
+        "authors",
+        "affiliations",
+        "abstract",
+        "keywords",
+        "body",
+        "references"
+      ],
+      "headingPolicy": {
+        "numberingDepth": 2,
+        "styleNames": [
+          "Heading1",
+          "Heading2"
+        ],
+        "lowerLevels": "run_in"
+      },
+      "captionPolicy": {
+        "tables": "above",
+        "figures": "below"
+      },
+      "referencePolicy": {
+        "location": "end",
+        "style": "References",
+        "numbering": "sequential"
+      },
+      "frontMatterPolicy": {
+        "order": [
+          "title",
+          "authors",
+          "affiliations",
+          "abstract",
+          "keywords"
+        ],
+        "abstractBeforeKeywords": true,
+        "titleStyle": "Title",
+        "authorStyle": "Author"
+      },
+      "blockPlan": [
+        "title",
+        "authors",
+        "affiliations",
+        "abstract",
+        "keywords",
+        "intro",
+        "method",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "repairHistory": []
+    },
+    "qaReport": {
+      "passed": true,
+      "repairable": false,
+      "checks": {
+        "headingPolicy": true,
+        "captions": true,
+        "frontMatter": true,
+        "references": true,
+        "outputArtifact": true
+      },
+      "issueCount": 0
+    },
+    "reviewItems": [],
+    "rebuildSummary": {
+      "strategy": "placeholder_json_artifact",
+      "notes": "Prototype rebuild writes a JSON representation and a placeholder doc artifact. Real DOCX rewriting can be plugged in later.",
+      "orderedBlocks": [
+        {
+          "type": "title",
+          "value": "Submitted Success"
+        },
+        {
+          "type": "authors",
+          "value": [
+            "Dana Lee",
+            "Jordan Patel"
+          ]
+        },
+        {
+          "type": "affiliations",
+          "value": [
+            "Prototype Systems Lab"
+          ]
+        },
+        {
+          "type": "abstract",
+          "value": "This prototype evaluates how supervisor-orchestrated agents can reformat conference papers while preserving content."
+        },
+        {
+          "type": "keywords",
+          "value": [
+            "document reformatting",
+            "agent graph",
+            "workflow orchestration"
+          ]
+        },
+        {
+          "type": "section",
+          "id": "intro",
+          "title": "Introduction",
+          "headingStyle": "Title",
+          "blockCount": 4
+        },
+        {
+          "type": "section",
+          "id": "method",
+          "title": "Method",
+          "headingStyle": "Title",
+          "blockCount": 5
+        },
+        {
+          "type": "section",
+          "id": "results",
+          "title": "Results",
+          "headingStyle": "Title",
+          "blockCount": 3
+        },
+        {
+          "type": "section",
+          "id": "conclusion",
+          "title": "Conclusion",
+          "headingStyle": "Title",
+          "blockCount": 2
+        },
+        {
+          "type": "references",
+          "value": [
+            "Reference A",
+            "Reference B",
+            "Reference C"
+          ]
+        }
+      ],
+      "styleOverlay": {
+        "headingPolicy": {
+          "numberingDepth": 2,
+          "styleNames": [
+            "Heading1",
+            "Heading2"
+          ],
+          "lowerLevels": "run_in"
+        },
+        "captionPolicy": {
+          "tables": "above",
+          "figures": "below"
+        },
+        "referencePolicy": {
+          "location": "end",
+          "style": "References",
+          "numbering": "sequential"
+        }
+      },
+      "repairHistory": []
+    },
+    "planValidation": {
+      "valid": true,
+      "checkedAt": "2026-04-14T12:35:35.625Z",
+      "issueCount": 0,
+      "recommendedRoute": null
+    }
+  },
+  "confidence": {
+    "templateProfile": 0.9,
+    "sourceAnalysis": 0.87,
+    "structureMapping": 0.9,
+    "rebuild": 0.86,
+    "qa": 0.92,
+    "repair": 0
+  },
+  "retries": {
+    "sourceAnalyzer": 0,
+    "structureMapper": 0,
+    "documentRebuilder": 0,
+    "repairAgent": 0
+  },
+  "retryLimits": {
+    "sourceAnalyzer": 2,
+    "structureMapper": 2,
+    "documentRebuilder": 2,
+    "repairAgent": 2
+  },
+  "issues": [],
+  "trace": [
+    {
+      "step": 1,
+      "agent": "templateProfiler",
+      "timestamp": "2026-04-14T12:35:35.624Z",
+      "inputSummary": {
+        "targetPath": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/examples/fixtures/target-success.docx",
+        "conferenceFlavor": "generic_conference"
+      },
+      "outputSummary": {
+        "confidence": 0.9,
+        "issueCount": 0
+      },
+      "confidence": 0.9,
+      "issues": []
+    },
+    {
+      "step": 2,
+      "agent": "sourceAnalyzer",
+      "timestamp": "2026-04-14T12:35:35.624Z",
+      "inputSummary": {
+        "submittedPath": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/examples/fixtures/submitted-success.docx",
+        "previousRetries": 0
+      },
+      "outputSummary": {
+        "confidence": 0.87,
+        "sectionCount": 4,
+        "referenceCount": 3
+      },
+      "confidence": 0.87,
+      "issues": []
+    },
+    {
+      "step": 3,
+      "agent": "structureMapper",
+      "timestamp": "2026-04-14T12:35:35.624Z",
+      "inputSummary": {
+        "templateFlavor": "generic_conference",
+        "sectionCount": 4
+      },
+      "outputSummary": {
+        "confidence": 0.9,
+        "plannedBlockCount": 10
+      },
+      "confidence": 0.9,
+      "issues": []
+    },
+    {
+      "step": 4,
+      "agent": "planValidator",
+      "timestamp": "2026-04-14T12:35:35.625Z",
+      "inputSummary": {
+        "blockPlanLength": 10
+      },
+      "outputSummary": {
+        "confidence": 0.91,
+        "valid": true
+      },
+      "confidence": 0.91,
+      "issues": []
+    },
+    {
+      "step": 5,
+      "agent": "documentRebuilder",
+      "timestamp": "2026-04-14T12:35:35.625Z",
+      "inputSummary": {
+        "outputDir": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/src/output/run_1776170135620_9b0cc755",
+        "repairCount": 0
+      },
+      "outputSummary": {
+        "outputPath": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/src/output/run_1776170135620_9b0cc755/outputFormatted.docx.placeholder.txt",
+        "orderedBlockCount": 10
+      },
+      "confidence": 0.86,
+      "issues": []
+    },
+    {
+      "step": 6,
+      "agent": "qaValidator",
+      "timestamp": "2026-04-14T12:35:35.626Z",
+      "inputSummary": {
+        "outputPath": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/src/output/run_1776170135620_9b0cc755/outputFormatted.docx.placeholder.txt",
+        "repairAttempts": 0
+      },
+      "outputSummary": {
+        "confidence": 0.92,
+        "passed": true,
+        "repairable": false
+      },
+      "confidence": 0.92,
+      "issues": []
+    }
+  ],
+  "decisions": [
+    {
+      "timestamp": "2026-04-14T12:35:35.623Z",
+      "fromStatus": "INIT",
+      "decision": "templateProfiler",
+      "rationale": "Workflow initialization requires template profiling.",
+      "nextStatus": "INIT"
+    },
+    {
+      "timestamp": "2026-04-14T12:35:35.624Z",
+      "fromStatus": "PROFILED",
+      "decision": "sourceAnalyzer",
+      "rationale": "Template profile exists; analyze submitted content next.",
+      "nextStatus": "PROFILED"
+    },
+    {
+      "timestamp": "2026-04-14T12:35:35.624Z",
+      "fromStatus": "ANALYZED",
+      "decision": "structureMapper",
+      "rationale": "Content analysis is sufficient for structure mapping.",
+      "nextStatus": "ANALYZED"
+    },
+    {
+      "timestamp": "2026-04-14T12:35:35.625Z",
+      "fromStatus": "MAPPED",
+      "decision": "planValidator",
+      "rationale": "Transformation plan must be validated before rebuilding.",
+      "nextStatus": "MAPPED"
+    },
+    {
+      "timestamp": "2026-04-14T12:35:35.625Z",
+      "fromStatus": "PLAN_VALID",
+      "decision": "documentRebuilder",
+      "rationale": "Validated plan is ready for rebuild.",
+      "nextStatus": "PLAN_VALID"
+    },
+    {
+      "timestamp": "2026-04-14T12:35:35.625Z",
+      "fromStatus": "REBUILT",
+      "decision": "qaValidator",
+      "rationale": "Rebuilt artifact must pass QA before completion.",
+      "nextStatus": "REBUILT"
+    },
+    {
+      "timestamp": "2026-04-14T12:35:35.626Z",
+      "fromStatus": "QA_PASSED",
+      "decision": "done",
+      "rationale": "Success criteria met.",
+      "nextStatus": "DONE"
+    }
+  ],
+  "escalation": {
+    "required": false,
+    "reasons": []
+  },
+  "metadata": {
+    "createdAt": "2026-04-14T12:35:35.621Z",
+    "updatedAt": "2026-04-14T12:35:35.626Z"
+  }
+}

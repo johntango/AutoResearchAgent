@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "repairable": false,
+  "checks": {
+    "headingPolicy": true,
+    "captions": true,
+    "frontMatter": true,
+    "references": true,
+    "outputArtifact": true
+  },
+  "issueCount": 0,
+  "reviewer": "openai_agents_sdk"
+}

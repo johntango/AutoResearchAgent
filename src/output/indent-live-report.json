@@ -1,0 +1,163 @@
+{
+  "runId": "run_1776184222876_9ded1a3d",
+  "outputPath": "src/output/run_1776184222876_9ded1a3d/outputFormatted.docx",
+  "formattingSummary": {
+    "formattedParagraphCount": 31,
+    "roleCounts": {
+      "title": 1,
+      "author": 1,
+      "affiliation": 3,
+      "abstract": 1,
+      "keywords": 1,
+      "heading1": 1,
+      "bodyFirstAfterHeading": 2,
+      "bodyIndented": 3,
+      "heading2": 1,
+      "bulletList": 2,
+      "referencesHeading": 1,
+      "referenceItem": 14
+    },
+    "targetExemplarStyles": {
+      "title": "papertitle",
+      "author": "author",
+      "affiliation": "address",
+      "abstract": "abstract",
+      "keywords": "keywords",
+      "heading1": "heading1",
+      "heading2": "heading2",
+      "heading3": "Heading3",
+      "heading4": "Heading4",
+      "bodyFirstAfterHeading": "",
+      "bodyIndented": "p1a",
+      "body": "p1a",
+      "bulletList": "bulletitem",
+      "numberedList": "numitem",
+      "tableCaption": "tablecaption",
+      "figureCaption": "figurecaption",
+      "referencesHeading": "heading2",
+      "referenceItem": "referenceitem"
+    }
+  },
+  "outputParagraphs": [
+    {
+      "index": 0,
+      "text": "Organizational Design using Data, Process and Organizational Mining",
+      "style": "papertitle",
+      "firstLine": ""
+    },
+    {
+      "index": 1,
+      "text": "John R Williams1, Pam Mantri2 and John Thomas2",
+      "style": "author",
+      "firstLine": ""
+    },
+    {
+      "index": 2,
+      "text": "1 Massachusetts Institute of Technology, Rm 1-250, Cambridge, MA 02139, USA",
+      "style": "address",
+      "firstLine": ""
+    },
+    {
+      "index": 3,
+      "text": "2 Cognitive Tools Limited, P.O. Box 695; 255 North Ave; New Rochelle, NY 10801, USA",
+      "style": "address",
+      "firstLine": ""
+    },
+    {
+      "index": 4,
+      "text": "jrw@mit.edu",
+      "style": "address",
+      "firstLine": ""
+    },
+    {
+      "index": 5,
+      "text": "Abstract. Traditional top-down organizational designs often suffer from inefficiencies, rigidity, and poor adaptability in the face of rapid technological change and global data flows. Organizations today must simultaneously manage fast-cycle changes while optimizing established business processes. This paper proposes a novel framework that integrates Axiomatic Design (AD) and Complex Adaptive Systems (CAS) to create dynamic, efficient, and data-driven organizational structures. By leveraging data, process, and organizational mining, organizations can proactively identify inefficiencies, optimize decision-making, and restructure business models. The AD–CAS framework offers a principled methodology for building resilient, adaptive, and analytically driven organizations. It enables self-optimization, real-time data insights, and structural flexibility in increasingly complex environments.",
+      "style": "abstract",
+      "firstLine": "0"
+    },
+    {
+      "index": 6,
+      "text": "Keywords: Organizational Design, Axiomatic Design, Complex Adaptive Systems, Data Mining, Process Mining, Organizational Mining",
+      "style": "keywords",
+      "firstLine": ""
+    },
+    {
+      "index": 7,
+      "text": "Introduction",
+      "style": "heading1",
+      "firstLine": ""
+    },
+    {
+      "index": 8,
+      "text": "Organizational design has continually evolved in response to globalization, technological advancements, and shifting management paradigms. Historically, organizations transitioned from informal, family-owned structures in the pre-industrial era to bureaucratic, hierarchical models during the Industrial Revolution. The 20th century introduced Human Relations Theory [1], Systems Thinking [2], and Matrix Structures, while the 21st century brought about Agile and Lean frameworks [3], AI-driven decision-making, and data-centric optimization [4, 5]. Despite these advancements, organizations become sclerotic over time, accumulating rigid, inefficient processes, that are poorly adapted to rapid technological and market changes [6].",
+      "style": "",
+      "firstLine": "0"
+    },
+    {
+      "index": 9,
+      "text": "Herein we propose an integrated approach to organizational design by combining Axiomatic Design (AD) [7, 8] and Complex Adaptive Systems (CAS) [9]. AD provides a structured methodology for defining functional requirements (FRs) and design parameters (DPs) to ensure clarity, efficiency, and independence in organizational structures. Meanwhile, CAS principles enable organizations to develop self-organizing, adaptable, and resilient systems that respond dynamically to external changes.",
+      "style": "p1a",
+      "firstLine": ""
+    },
+    {
+      "index": 10,
+      "text": "1.1 Inefficiencies and Resistance to Change",
+      "style": "heading2",
+      "firstLine": ""
+    },
+    {
+      "index": 11,
+      "text": "Traditional organizational designs, historically rooted in hierarchical models, are increasingly unsuited for today’s dynamic and technologically driven environment. Key limitations include inefficiencies in hierarchical structures, resistance to change, inadequate adaptability to technological advances, and fragmented processes leading to poor data integration.",
+      "style": "",
+      "firstLine": "0"
+    },
+    {
+      "index": 13,
+      "text": "Type of list 1",
+      "style": "bulletitem",
+      "firstLine": ""
+    },
+    {
+      "index": 14,
+      "text": "Type of list 2",
+      "style": "bulletitem",
+      "firstLine": ""
+    },
+    {
+      "index": 15,
+      "text": "Traditional hierarchical models, characterized by rigid authority layers and top-down decision flows, often neglect bottom-up information. Although they provide role clarity, they foster bureaucratic bottlenecks, slow decision-making, and dilute communication across levels, leading to misaligned goals and delayed strategic implementation. Such rigidity impairs responsiveness in fast-paced contexts. Techniques like continuous process-mining and organizational mining could mitigate these inefficiencies.",
+      "style": "p1a",
+      "firstLine": ""
+    },
+    {
+      "index": 16,
+      "text": "As corporations age, they typically become “sclerotic” as new policies are layered on top of old ones. Longstanding policies and entrenched processes foster fear of change among employees and managers, emphasizing the status quo over innovation. This cultural inertia discourages proactive improvements, heightening vulnerability to market disruptions and technological shifts.",
+      "style": "p1a",
+      "firstLine": ""
+    },
+    {
+      "index": 17,
+      "text": "References",
+      "style": "heading2",
+      "firstLine": ""
+    },
+    {
+      "index": 18,
+      "text": "Omolawal, Samuel. Human Relations Theory: Implications for Effective Human Resource Management. 5. 1-8. (2023).",
+      "style": "referenceitem",
+      "firstLine": ""
+    },
+    {
+      "index": 19,
+      "text": "Cabrera, Derek & Cabrera, Laura & Lobdell, Claire. Systems Thinking. Evaluation and program planning. 31. 299-310. 10.1016/j.evalprogplan.2007.12.001, (2008).",
+      "style": "referenceitem",
+      "firstLine": ""
+    },
+    {
+      "index": 20,
+      "text": "Marbach, Phyllis & Rosser, Larri & Osvalds, Gundars & Lempia, David. Principles for Agile Development. INCOSE International Symposium. 25. 524-537 (2015).",
+      "style": "referenceitem",
+      "firstLine": ""
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Document Reformatting Agent UI</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background: #f6f8fb;
+      }
+      .panel-card {
+        min-height: 100%;
+        box-shadow: 0 0.5rem 1.5rem rgba(15, 23, 42, 0.06);
+      }
+      .json-view,
+      .log-view {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          monospace;
+        font-size: 0.85rem;
+        white-space: pre-wrap;
+        word-break: break-word;
+        background: #0b1020;
+        color: #d7e1ff;
+        border-radius: 0.75rem;
+        padding: 1rem;
+        min-height: 240px;
+        max-height: 420px;
+        overflow: auto;
+      }
+      .hero {
+        background: linear-gradient(135deg, #0f172a, #1d4ed8 60%, #38bdf8);
+        color: white;
+        border-radius: 1.25rem;
+      }
+      .status-pill {
+        font-size: 0.8rem;
+      }
+      .workflow-list-item code {
+        font-size: 0.75rem;
+      }
+      .file-chip {
+        display: inline-flex;
+        align-items: center;
+        padding: 0.25rem 0.6rem;
+        border-radius: 999px;
+        background: #e0ecff;
+        color: #1e3a8a;
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container py-4 py-lg-5">
+      <section class="hero p-4 p-lg-5 mb-4">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-8">
+            <p class="text-uppercase small fw-semibold mb-2">
+              Supervisor-Orchestrated Agent Graph
+            </p>
+            <h1 class="display-6 fw-bold mb-3">
+              Document Reformatting Workflow Console
+            </h1>
+            <p class="mb-0 text-white-50">
+              Run the workflow, inspect artifacts, and watch structured logs as
+              the agent graph moves through profiling, analysis, mapping,
+              validation, repair, and escalation.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <div class="bg-white text-dark rounded-4 p-3">
+              <div
+                class="d-flex justify-content-between align-items-center mb-2"
+              >
+                <span class="fw-semibold">Server</span>
+                <span
+                  id="health-badge"
+                  class="badge text-bg-secondary status-pill"
+                  >Checking</span
+                >
+              </div>
+              <div class="small text-secondary">
+                API root: <span class="fw-semibold">/api/workflows/run</span>
+              </div>
+              <div class="small text-secondary">
+                Logs: <span class="fw-semibold">/api/system/logs</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="row g-4">
+        <div class="col-lg-5">
+          <div class="card panel-card border-0">
+            <div class="card-body p-4">
+              <div
+                class="d-flex justify-content-between align-items-center mb-3"
+              >
+                <h2 class="h4 mb-0">Run Workflow</h2>
+                <div class="d-flex gap-2 align-items-center">
+                  <span id="run-state" class="badge text-bg-light status-pill"
+                    >Idle</span
+                  >
+                  <button
+                    id="download-button"
+                    type="button"
+                    class="btn btn-sm btn-success"
+                    disabled
+                  >
+                    Download Output
+                  </button>
+                </div>
+              </div>
+              <form id="workflow-form" class="vstack gap-3">
+                <div>
+                  <label for="targetFile" class="form-label"
+                    >Target DOCX File</label
+                  >
+                  <input
+                    id="targetFile"
+                    class="form-control"
+                    type="file"
+                    accept=".docx"
+                  />
+                  <div class="form-text">
+                    Choose the local target template file, or leave blank and
+                    use a path below.
+                  </div>
+                  <div id="target-file-chip" class="mt-2 text-secondary small">
+                    No target file selected.
+                  </div>
+                </div>
+                <div>
+                  <label for="submittedFile" class="form-label"
+                    >Submitted DOCX File</label
+                  >
+                  <input
+                    id="submittedFile"
+                    class="form-control"
+                    type="file"
+                    accept=".docx"
+                  />
+                  <div class="form-text">
+                    Choose the local submitted paper file, or leave blank and
+                    use a path below.
+                  </div>
+                  <div
+                    id="submitted-file-chip"
+                    class="mt-2 text-secondary small"
+                  >
+                    No submitted file selected.
+                  </div>
+                </div>
+                <div class="small text-secondary fw-semibold">
+                  Optional path fallback
+                </div>
+                <div>
+                  <label for="targetPath" class="form-label"
+                    >Target DOCX Path</label
+                  >
+                  <input
+                    id="targetPath"
+                    class="form-control"
+                    value="target.docx"
+                    required
+                  />
+                  <div class="form-text">
+                    Relative paths are resolved from the project root.
+                  </div>
+                </div>
+                <div>
+                  <label for="submittedPath" class="form-label"
+                    >Submitted DOCX Path</label
+                  >
+                  <input
+                    id="submittedPath"
+                    class="form-control"
+                    value="submitted.docx"
+                    required
+                  />
+                </div>
+                <div class="d-grid gap-2 d-md-flex">
+                  <button
+                    id="run-button"
+                    type="submit"
+                    class="btn btn-primary btn-lg flex-fill"
+                  >
+                    Run Workflow
+                  </button>
+                  <button
+                    id="refresh-button"
+                    type="button"
+                    class="btn btn-outline-secondary"
+                  >
+                    Refresh
+                  </button>
+                </div>
+              </form>
+              <hr class="my-4" />
+              <div>
+                <div
+                  class="d-flex justify-content-between align-items-center mb-2"
+                >
+                  <h3 class="h6 mb-0">Recent Workflows</h3>
+                  <span id="workflow-count" class="text-secondary small"
+                    >0 runs</span
+                  >
+                </div>
+                <div
+                  id="workflow-list"
+                  class="list-group list-group-flush"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="row g-4">
+            <div class="col-12">
+              <div class="card panel-card border-0">
+                <div class="card-body p-4">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <h2 class="h4 mb-0">Live Logs</h2>
+                    <button
+                      id="clear-log-view"
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Clear View
+                    </button>
+                  </div>
+                  <div id="log-view" class="log-view">Waiting for logs...</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="card panel-card border-0">
+                <div class="card-body p-4">
+                  <ul
+                    class="nav nav-pills mb-3"
+                    id="result-tabs"
+                    role="tablist"
+                  >
+                    <li class="nav-item" role="presentation">
+                      <button
+                        class="nav-link active"
+                        data-bs-toggle="pill"
+                        data-bs-target="#summary-tab"
+                        type="button"
+                      >
+                        Summary
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button
+                        class="nav-link"
+                        data-bs-toggle="pill"
+                        data-bs-target="#artifacts-tab"
+                        type="button"
+                      >
+                        Artifacts
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button
+                        class="nav-link"
+                        data-bs-toggle="pill"
+                        data-bs-target="#trace-tab"
+                        type="button"
+                      >
+                        Trace
+                      </button>
+                    </li>
+                  </ul>
+                  <div class="tab-content">
+                    <div class="tab-pane fade show active" id="summary-tab">
+                      <div id="summary-view" class="json-view">
+                        Run a workflow to see the final state.
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="artifacts-tab">
+                      <div id="artifacts-view" class="json-view">
+                        Artifacts will appear here.
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="trace-tab">
+                      <div id="trace-view" class="json-view">
+                        Trace and decisions will appear here.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

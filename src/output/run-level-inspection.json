@@ -1,0 +1,544 @@
+{
+  "targetAuthor": {
+    "paragraphIndex": 1,
+    "text": "John Smith [[0000-0002-3826-2204].and Pam Smith2 [0000-0002-5238-8227]",
+    "pStyle": "author",
+    "runs": [
+      {
+        "index": 0,
+        "text": "John Smith",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      },
+      {
+        "index": 1,
+        "text": " ",
+        "style": "ORCID",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": true
+      },
+      {
+        "index": 2,
+        "text": "[",
+        "style": "ORCID",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": true
+      },
+      {
+        "index": 3,
+        "text": "[0000-0002-3826-",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "superscript",
+        "size": "",
+        "hasRPr": true
+      },
+      {
+        "index": 4,
+        "text": "22",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "superscript",
+        "size": "",
+        "hasRPr": true
+      },
+      {
+        "index": 5,
+        "text": "04].",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "superscript",
+        "size": "",
+        "hasRPr": true
+      },
+      {
+        "index": 6,
+        "text": "and ",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      },
+      {
+        "index": 7,
+        "text": "Pam ",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      },
+      {
+        "index": 8,
+        "text": "Smith",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      },
+      {
+        "index": 9,
+        "text": "2",
+        "style": "ORCID",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": true
+      },
+      {
+        "index": 10,
+        "text": " ",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      },
+      {
+        "index": 11,
+        "text": "[",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      },
+      {
+        "index": 12,
+        "text": "0000-0002-5238-8",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "superscript",
+        "size": "",
+        "hasRPr": true
+      },
+      {
+        "index": 13,
+        "text": "22",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "superscript",
+        "size": "",
+        "hasRPr": true
+      },
+      {
+        "index": 14,
+        "text": "7]",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "superscript",
+        "size": "",
+        "hasRPr": true
+      }
+    ]
+  },
+  "submittedAuthor": {
+    "paragraphIndex": 1,
+    "text": "John R Williams1, Pam Mantri2 and John Thomas2",
+    "pStyle": "author",
+    "runs": [
+      {
+        "index": 0,
+        "text": "John R Williams",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      },
+      {
+        "index": 1,
+        "text": "1",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "superscript",
+        "size": "",
+        "hasRPr": true
+      },
+      {
+        "index": 2,
+        "text": ", P",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      },
+      {
+        "index": 3,
+        "text": "am Mantri",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      },
+      {
+        "index": 4,
+        "text": "2",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "superscript",
+        "size": "",
+        "hasRPr": true
+      },
+      {
+        "index": 5,
+        "text": " ",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      },
+      {
+        "index": 6,
+        "text": "and ",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      },
+      {
+        "index": 7,
+        "text": "John Thomas",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      },
+      {
+        "index": 8,
+        "text": "2",
+        "style": "ORCID",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": true
+      },
+      {
+        "index": 9,
+        "text": " ",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      }
+    ]
+  },
+  "outputAuthor": {
+    "paragraphIndex": 1,
+    "text": "John R Williams1, Pam Mantri2 and John Thomas2",
+    "pStyle": "author",
+    "runs": [
+      {
+        "index": 0,
+        "text": "John R Williams",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      },
+      {
+        "index": 1,
+        "text": "1",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      },
+      {
+        "index": 2,
+        "text": ", P",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      },
+      {
+        "index": 3,
+        "text": "am Mantri",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      },
+      {
+        "index": 4,
+        "text": "2",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      },
+      {
+        "index": 5,
+        "text": " ",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      },
+      {
+        "index": 6,
+        "text": "and ",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      },
+      {
+        "index": 7,
+        "text": "John Thomas",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      },
+      {
+        "index": 8,
+        "text": "2",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      },
+      {
+        "index": 9,
+        "text": " ",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      }
+    ]
+  },
+  "targetAbstract": {
+    "paragraphIndex": 4,
+    "text": "Abstract. The history of design can be read as a sequence of changing answers to a deceptively simple question: what does it mean to “design”? Before design was a noun, it was an activity embedded in making. In pre-industrial contexts, the same individual or workshop typically conceived, detailed, and fabricated artifacts—from tools and garments to buildings and ships.",
+    "pStyle": "abstract",
+    "runs": [
+      {
+        "index": 0,
+        "text": "Abstract.",
+        "style": "",
+        "bold": true,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": true
+      },
+      {
+        "index": 1,
+        "text": " ",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      },
+      {
+        "index": 2,
+        "text": "The history of design can be read as a sequence of changing answers to a deceptively simple question: what does it mean to “design”? Before design was a noun, it was an activity embedded in making. In pre-industrial contexts, the same individual or workshop typically conceived, detailed, and fabricated artifacts—from tools and garments to buildings and ships.",
+        "style": "",
+        "bold": false,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": false
+      }
+    ]
+  },
+  "submittedAbstract": {
+    "paragraphIndex": 5,
+    "text": "Abstract. Traditional top-down organizational designs often suffer from inefficiencies, rigidity, and poor adaptability in the face of rapid technological change and global data flows. Organizations today must simultaneously manage fast-cycle changes while optimizing established business processes. This paper proposes a novel framework that integrates Axiomatic Design (AD) and Complex Adaptive Systems (CAS) to create dynamic, efficient, and data-driven organizational structures. By leveraging data, process, and organizational mining, organizations can proactively identify inefficiencies, optimize decision-making, and restructure business models. The AD–CAS framework offers a principled methodology for building resilient, adaptive, and analytically driven organizations. It enables self-optimization, real-time data insights, and structural flexibility in increasingly complex environments.",
+    "pStyle": "NormalWeb",
+    "runs": [
+      {
+        "index": 0,
+        "text": "Abstract. ",
+        "style": "",
+        "bold": true,
+        "italic": false,
+        "vertAlign": "",
+        "size": "40",
+        "hasRPr": true
+      },
+      {
+        "index": 1,
+        "text": "Traditional top-down organizational designs often suffer from inefficiencies, rigidity, and poor adaptability in the face of rapid technological change and global data flows. Organizations today must simultaneously manage fast-cycle changes while optimizing established business processes. This paper proposes a novel framework that integrates Axiomatic Design (AD)",
+        "style": "",
+        "bold": false,
+        "italic": true,
+        "vertAlign": "",
+        "size": "20",
+        "hasRPr": true
+      },
+      {
+        "index": 2,
+        "text": " and",
+        "style": "",
+        "bold": false,
+        "italic": true,
+        "vertAlign": "",
+        "size": "20",
+        "hasRPr": true
+      },
+      {
+        "index": 3,
+        "text": " Complex Adaptive Systems (CAS",
+        "style": "",
+        "bold": false,
+        "italic": true,
+        "vertAlign": "",
+        "size": "20",
+        "hasRPr": true
+      },
+      {
+        "index": 4,
+        "text": ") to",
+        "style": "",
+        "bold": false,
+        "italic": true,
+        "vertAlign": "",
+        "size": "20",
+        "hasRPr": true
+      },
+      {
+        "index": 5,
+        "text": " create dynamic, efficient, and data-driven organizational structures. By leveraging data, process, and organizational mining, organizations can proactively identify inefficiencies, optimize decision-making, and restructure business models. The AD–CAS framework offers a principled methodology for building resilient, adaptive, and analytically driven organizations. It enables self-optimization, real-time data insights, and structural flexibility in increasingly complex environments.",
+        "style": "",
+        "bold": false,
+        "italic": true,
+        "vertAlign": "",
+        "size": "20",
+        "hasRPr": true
+      }
+    ]
+  },
+  "outputAbstract": {
+    "paragraphIndex": 5,
+    "text": "Abstract. Traditional top-down organizational designs often suffer from inefficiencies, rigidity, and poor adaptability in the face of rapid technological change and global data flows. Organizations today must simultaneously manage fast-cycle changes while optimizing established business processes. This paper proposes a novel framework that integrates Axiomatic Design (AD) and Complex Adaptive Systems (CAS) to create dynamic, efficient, and data-driven organizational structures. By leveraging data, process, and organizational mining, organizations can proactively identify inefficiencies, optimize decision-making, and restructure business models. The AD–CAS framework offers a principled methodology for building resilient, adaptive, and analytically driven organizations. It enables self-optimization, real-time data insights, and structural flexibility in increasingly complex environments.",
+    "pStyle": "abstract",
+    "runs": [
+      {
+        "index": 0,
+        "text": "Abstract. ",
+        "style": "",
+        "bold": true,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": true
+      },
+      {
+        "index": 1,
+        "text": "Traditional top-down organizational designs often suffer from inefficiencies, rigidity, and poor adaptability in the face of rapid technological change and global data flows. Organizations today must simultaneously manage fast-cycle changes while optimizing established business processes. This paper proposes a novel framework that integrates Axiomatic Design (AD)",
+        "style": "",
+        "bold": true,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": true
+      },
+      {
+        "index": 2,
+        "text": " and",
+        "style": "",
+        "bold": true,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": true
+      },
+      {
+        "index": 3,
+        "text": " Complex Adaptive Systems (CAS",
+        "style": "",
+        "bold": true,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": true
+      },
+      {
+        "index": 4,
+        "text": ") to",
+        "style": "",
+        "bold": true,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": true
+      },
+      {
+        "index": 5,
+        "text": " create dynamic, efficient, and data-driven organizational structures. By leveraging data, process, and organizational mining, organizations can proactively identify inefficiencies, optimize decision-making, and restructure business models. The AD–CAS framework offers a principled methodology for building resilient, adaptive, and analytically driven organizations. It enables self-optimization, real-time data insights, and structural flexibility in increasingly complex environments.",
+        "style": "",
+        "bold": true,
+        "italic": false,
+        "vertAlign": "",
+        "size": "",
+        "hasRPr": true
+      }
+    ]
+  }
+}

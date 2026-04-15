@@ -1,0 +1,1054 @@
+{
+  "target": {
+    "paragraphs": [
+      {
+        "index": 0,
+        "texts": "Design Methods ",
+        "pStyle": "papertitle",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 1,
+        "texts": "John Smith [[0000-0002-3826-2204].and Pam Smith2 [0000-0002-5238-8227]",
+        "pStyle": "author",
+        "rStyle": "ORCID",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 2,
+        "texts": "1 Massachusetts Institute of Technology, Rm 1-250, Cambridge, MA 02229, USA",
+        "pStyle": "address",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 3,
+        "texts": "2 CAD Tools Limited, 444 North Ave; New London, NY 10221, USAanybody@mit.edu",
+        "pStyle": "address",
+        "rStyle": "e-mail",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 4,
+        "texts": "Abstract. The history of design can be read as a sequence of changing answers to a deceptively simple question: what does it mean to “design”? Before design was a noun, it was an activity embedded in making. In pre-industrial contexts, the same individual or workshop typically conceived, detailed, and fabricated artifacts—from tools and garments to buildings and ships.",
+        "pStyle": "abstract",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 5,
+        "texts": "Keywords: Design Methodologies, Axiomatic Design (AD), TRIZ, ",
+        "pStyle": "keywords",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 6,
+        "texts": "Introduction",
+        "pStyle": "heading1",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 7,
+        "texts": "The history of design can be read as a sequence of changing answers to a deceptively simple question: what does it mean to “design”? Before design was a noun, it was an activity embedded in making. In pre-industrial contexts, the same individual or workshop typically conceived, detailed, and fabricated artifacts—from tools and garments to buildings and ships. ",
+        "pStyle": "p1a",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 8,
+        "texts": "Michael Polanyi’s [2] concept of tacit knowledge provides a powerful epistemic account of these practices. ",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 10,
+        "texts": "The Industrial Revolution began to decouple design from making. ",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 12,
+        "texts": "By the mid-twentieth century, the Design Methods Movement sought to elevate ",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 13,
+        "texts": "FirstGeneration Design Methods: Rational Problem Solving ",
+        "pStyle": "heading1",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 14,
+        "texts": "2.1The Design Methods Movement",
+        "pStyle": "heading2",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 15,
+        "texts": "PostWorld War II societies confronted unprecedented complexity: largescale infrastructure, aerospace systems, urban planning, and information technologies. Against this backdrop, designers and engineers sought more explicit, rational ways to plan and coordinate design work. The 1962 Conference on Design Methods in London symbolized this shift, marking what Nigel Cross calls the birth of modern design methodology and the Design Methods Movement. ",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 16,
+        "texts": "2.2 Herbert Simon and the Science of the Artificial",
+        "pStyle": "heading2",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 17,
+        "texts": "Herbert A. Simon’s The Sciences of the Artificial (1969; 3rd ed. 1996) crystallized this agenda.",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 18,
+        "texts": "Simon’s “science of design” pursued:",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 19,
+        "texts": "Abstraction: Representing problems in terms of formal structures that can be manipulated mathematically or computationally.",
+        "pStyle": "numitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 20,
+        "texts": "Decomposition: Breaking complex problems into subproblems that can be addressed separately.",
+        "pStyle": "numitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 21,
+        "texts": "2.3 Christopher Alexander and Structural Decomposition",
+        "pStyle": "heading2",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 22,
+        "texts": "Christopher Alexander’s Notes on the Synthesis of Form (1964) represents a complementary, ",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 23,
+        "texts": "2.4 Epistemic Character of FirstGeneration Methods",
+        "pStyle": "heading2",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 24,
+        "texts": "In ontological terms, firstgeneration methods treat design as:",
+        "pStyle": "p1a",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 25,
+        "texts": "Deterministic: Given a correct formulation and sufficient rational effort, the process tends toward a welldefined solution or set of solutions.",
+        "pStyle": "bulletitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 26,
+        "texts": "Domaingeneral: Despite contextual differences, design problems in engineering, planning, or management are seen as instances of the same underlying problemsolving logic.",
+        "pStyle": "bulletitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 27,
+        "texts": "Sequential (if iterative): Analysis precedes synthesis; problem definition precedes solution generation.",
+        "pStyle": "bulletitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 28,
+        "texts": "SecondGeneration Design Theory: Wicked Problems and Reflection",
+        "pStyle": "heading1",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 29,
+        "texts": "3.1 Rittel, Wicked Problems, and IssueBased Design",
+        "pStyle": "heading2",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 30,
+        "texts": "Horst Rittel, initially a participant in the early design methods movement, became one of its most incisive critics. Suh’s Axiomatic Design",
+        "pStyle": "NormalWeb",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 31,
+        "texts": "Nam P. Suh’s Axiomatic Design (AD), developed from the late 1970s onward, seeks a more explicitly theoretical foundation for engineering design. AD distinguishes four domains:",
+        "pStyle": "NormalWeb",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 32,
+        "texts": "Customer Needs (CN)",
+        "pStyle": "bulletitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 33,
+        "texts": "Functional Requirements (FR)",
+        "pStyle": "bulletitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 34,
+        "texts": "Design Parameters (DP)",
+        "pStyle": "bulletitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 35,
+        "texts": "Process Variables (PV)",
+        "pStyle": "bulletitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 36,
+        "texts": "Design is modeled as mappings between these domains, often represented as matrices (e.g., FR = [A]·DP). Suh proposes two axioms of good design:",
+        "pStyle": "NormalWeb",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 37,
+        "texts": "Independence Axiom: Maintain the independence of functional requirements; ideally, each FR is affected by only one DP.",
+        "pStyle": "numitem",
+        "rStyle": "Strong",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 38,
+        "texts": "Information Axiom: Minimize the information content of the design, favoring simpler, more robust configurations.",
+        "pStyle": "numitem",
+        "rStyle": "Strong",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 41,
+        "texts": "Sample Heading (Third Level). Only two levels of headings should be numbered. Lower level headings remain unnumbered; they are formatted as run-in headings.",
+        "pStyle": "Heading3",
+        "rStyle": "heading30",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 42,
+        "texts": "Sample Heading (Forth Level). The contribution should contain no more than four levels of headings. The following Table 1 gives a summary of all heading levels.",
+        "pStyle": "Heading4",
+        "rStyle": "heading40",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 43,
+        "texts": "Table 1. Table captions should be placed above the tables.",
+        "pStyle": "tablecaption",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 44,
+        "texts": "Heading level",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": "18"
+      },
+      {
+        "index": 45,
+        "texts": "Example",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": "18"
+      },
+      {
+        "index": 46,
+        "texts": "Font size and style",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": "18"
+      },
+      {
+        "index": 47,
+        "texts": "Title (centered)",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": "18"
+      },
+      {
+        "index": 48,
+        "texts": "Lecture Notes",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": "18"
+      },
+      {
+        "index": 49,
+        "texts": "14 point, bold",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": "18"
+      },
+      {
+        "index": 50,
+        "texts": "1st-level heading",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": "18"
+      },
+      {
+        "index": 51,
+        "texts": "1 Introduction",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": "18"
+      },
+      {
+        "index": 52,
+        "texts": "12 point, bold",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": "18"
+      },
+      {
+        "index": 53,
+        "texts": "2nd-level heading",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": "18"
+      },
+      {
+        "index": 54,
+        "texts": "2.1 Printing Area",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": "18"
+      },
+      {
+        "index": 55,
+        "texts": "10 point, bold",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": "18"
+      },
+      {
+        "index": 56,
+        "texts": "3rd-level heading",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": "18"
+      },
+      {
+        "index": 57,
+        "texts": "Run-in Heading in Bold. Text follows",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": "18"
+      },
+      {
+        "index": 58,
+        "texts": "10 point, bold",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": "18"
+      },
+      {
+        "index": 59,
+        "texts": "4th-level heading",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": "18"
+      },
+      {
+        "index": 60,
+        "texts": "Lowest Level Heading. Text follows",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": true,
+        "size": "18"
+      },
+      {
+        "index": 61,
+        "texts": "10 point, italic",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": "18"
+      },
+      {
+        "index": 62,
+        "texts": "Displayed equations are centered and set on a separate line. ",
+        "pStyle": "",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 63,
+        "texts": "x + y = z(1)",
+        "pStyle": "equation",
+        "rStyle": "",
+        "italic": true,
+        "size": ""
+      },
+      {
+        "index": 64,
+        "texts": "Please try to avoid rasterized images for line-art diagrams and schemas. Whenever possible, use vector graphics instead (see Fig. 1).",
+        "pStyle": "p1a",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 66,
+        "texts": "Fig. 1. A figure caption is always placed below the illustration. Short captions are centered, while long ones are justified. The macro button chooses the correct format automatically.",
+        "pStyle": "figurecaption",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 68,
+        "texts": "Conclusions",
+        "pStyle": "heading1",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 69,
+        "texts": "To be or not to be. ",
+        "pStyle": "p1a",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 71,
+        "texts": "References",
+        "pStyle": "heading2",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 72,
+        "texts": "Sennett, R.: The Craftsman. Yale University Press, New Haven (2008)",
+        "pStyle": "referenceitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 73,
+        "texts": "Polanyi, M.: The Tacit Dimension. University of Chicago Press, Chicago (1966).",
+        "pStyle": "referenceitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 74,
+        "texts": "Simon, H.A.: The Sciences of the Artificial. 3rd edn. MIT Press, Cambridge (1996)..",
+        "pStyle": "referenceitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 75,
+        "texts": "Alexander, C.: Notes on the Synthesis of Form. Harvard University Press, Cambridge (1964).Rittel, H., Webber, M., 1973. Dilemmas in a General Theory of Planning.",
+        "pStyle": "referenceitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 79,
+        "texts": "Appendix",
+        "pStyle": "heading1",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      }
+    ],
+    "styles": [
+      {
+        "id": "Heading10",
+        "type": "paragraph",
+        "name": "heading 1",
+        "basedOn": "Normal",
+        "size": "24",
+        "italic": false
+      },
+      {
+        "id": "Heading20",
+        "type": "paragraph",
+        "name": "heading 2",
+        "basedOn": "Normal",
+        "size": "",
+        "italic": false
+      },
+      {
+        "id": "Heading3",
+        "type": "paragraph",
+        "name": "heading 3",
+        "basedOn": "Normal",
+        "size": "",
+        "italic": false
+      },
+      {
+        "id": "Heading4",
+        "type": "paragraph",
+        "name": "heading 4",
+        "basedOn": "Normal",
+        "size": "",
+        "italic": false
+      },
+      {
+        "id": "abstract",
+        "type": "paragraph",
+        "name": "abstract",
+        "basedOn": "Normal",
+        "size": "18",
+        "italic": false
+      },
+      {
+        "id": "heading1",
+        "type": "paragraph",
+        "name": "heading1",
+        "basedOn": "Normal",
+        "size": "24",
+        "italic": false
+      },
+      {
+        "id": "heading2",
+        "type": "paragraph",
+        "name": "heading2",
+        "basedOn": "Normal",
+        "size": "",
+        "italic": false
+      },
+      {
+        "id": "heading30",
+        "type": "character",
+        "name": "heading3",
+        "basedOn": "DefaultParagraphFont",
+        "size": "",
+        "italic": false
+      },
+      {
+        "id": "heading40",
+        "type": "character",
+        "name": "heading4",
+        "basedOn": "DefaultParagraphFont",
+        "size": "",
+        "italic": true
+      },
+      {
+        "id": "headings",
+        "type": "numbering",
+        "name": "headings",
+        "basedOn": "arabnumitem",
+        "size": "",
+        "italic": false
+      },
+      {
+        "id": "papertitle",
+        "type": "paragraph",
+        "name": "papertitle",
+        "basedOn": "Normal",
+        "size": "28",
+        "italic": false
+      },
+      {
+        "id": "papersubtitle",
+        "type": "paragraph",
+        "name": "papersubtitle",
+        "basedOn": "papertitle",
+        "size": "24",
+        "italic": false
+      },
+      {
+        "id": "Heading3Char",
+        "type": "character",
+        "name": "Heading 3 Char",
+        "basedOn": "DefaultParagraphFont",
+        "size": "",
+        "italic": false
+      },
+      {
+        "id": "Heading4Char",
+        "type": "character",
+        "name": "Heading 4 Char",
+        "basedOn": "DefaultParagraphFont",
+        "size": "",
+        "italic": false
+      }
+    ]
+  },
+  "submitted": {
+    "paragraphs": [
+      {
+        "index": 0,
+        "texts": "Organizational Design using Data, Process and Organizational Mining",
+        "pStyle": "papertitle",
+        "rStyle": "",
+        "italic": false,
+        "size": "21"
+      },
+      {
+        "index": 1,
+        "texts": "John R Williams1, Pam Mantri2 and John Thomas2 ",
+        "pStyle": "author",
+        "rStyle": "ORCID",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 2,
+        "texts": "1 Massachusetts Institute of Technology, Rm 1-250, Cambridge, MA 02139, USA ",
+        "pStyle": "address",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 3,
+        "texts": "2 Cognitive Tools Limited, P.O. Box 695; 255 North Ave; New Rochelle, NY 10801, USA",
+        "pStyle": "address",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 4,
+        "texts": "jrw@mit.edu",
+        "pStyle": "address",
+        "rStyle": "e-mail",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 5,
+        "texts": "Abstract. Traditional top-down organizational designs often suffer from inefficiencies, rigidity, and poor adaptability in the face of rapid technological change and global data flows. Organizations today must simultaneously manage fast-cycle changes while optimizing established business processes. This paper proposes a novel framework that integrates Axiomatic Design (AD) and Complex Adaptive Systems (CAS) to create dynamic, efficient, and data-driven organizational structures. By leveraging data, process, and organizational mining, organizations can proactively identify inefficiencies, optimize decision-making, and restructure business models. The AD–CAS framework offers a principled methodology for building resilient, adaptive, and analytically driven organizations. It enables self-optimization, real-time data insights, and structural flexibility in increasingly complex environments.",
+        "pStyle": "NormalWeb",
+        "rStyle": "",
+        "italic": true,
+        "size": "20"
+      },
+      {
+        "index": 6,
+        "texts": "Keywords: Organizational Design, Axiomatic Design, Complex Adaptive Systems, Data Mining, Process Mining, Organizational Mining",
+        "pStyle": "keywords",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 7,
+        "texts": "Introduction",
+        "pStyle": "heading1",
+        "rStyle": "",
+        "italic": false,
+        "size": "18"
+      },
+      {
+        "index": 8,
+        "texts": "Organizational design has continually evolved in response to globalization, technological advancements, and shifting management paradigms. Historically, organizations transitioned from informal, family-owned structures in the pre-industrial era to bureaucratic, hierarchical models during the Industrial Revolution. The 20th century introduced Human Relations Theory [1], Systems Thinking [2], and Matrix Structures, while the 21st century brought about Agile and Lean frameworks [3], AI-driven decision-making, and data-centric optimization [4, 5]. Despite these advancements, organizations become sclerotic over time, accumulating rigid, inefficient processes, that are poorly adapted to rapid technological and market changes [6].",
+        "pStyle": "NormalWeb",
+        "rStyle": "",
+        "italic": false,
+        "size": "20"
+      },
+      {
+        "index": 9,
+        "texts": "Herein we propose an integrated approach to organizational design by combining Axiomatic Design (AD) [7, 8] and Complex Adaptive Systems (CAS) [9]. AD provides a structured methodology for defining functional requirements (FRs) and design parameters (DPs) to ensure clarity, efficiency, and independence in organizational structures. Meanwhile, CAS principles enable organizations to develop self-organizing, adaptable, and resilient systems that respond dynamically to external changes.",
+        "pStyle": "NormalWeb",
+        "rStyle": "",
+        "italic": false,
+        "size": "20"
+      },
+      {
+        "index": 10,
+        "texts": "1.1 Inefficiencies and Resistance to Change",
+        "pStyle": "NormalWeb",
+        "rStyle": "",
+        "italic": false,
+        "size": "20"
+      },
+      {
+        "index": 11,
+        "texts": "Traditional organizational designs, historically rooted in hierarchical models, are increasingly unsuited for today’s dynamic and technologically driven environment. Key limitations include inefficiencies in hierarchical structures, resistance to change, inadequate adaptability to technological advances, and fragmented processes leading to poor data integration.",
+        "pStyle": "NormalWeb",
+        "rStyle": "",
+        "italic": false,
+        "size": "20"
+      },
+      {
+        "index": 13,
+        "texts": "Type of list 1",
+        "pStyle": "NormalWeb",
+        "rStyle": "",
+        "italic": false,
+        "size": "20"
+      },
+      {
+        "index": 14,
+        "texts": "Type of list 2 ",
+        "pStyle": "NormalWeb",
+        "rStyle": "",
+        "italic": false,
+        "size": "20"
+      },
+      {
+        "index": 15,
+        "texts": "Traditional hierarchical models, characterized by rigid authority layers and top-down decision flows, often neglect bottom-up information. Although they provide role clarity, they foster bureaucratic bottlenecks, slow decision-making, and dilute communication across levels, leading to misaligned goals and delayed strategic implementation. Such rigidity impairs responsiveness in fast-paced contexts. Techniques like continuous process-mining and organizational mining could mitigate these inefficiencies.",
+        "pStyle": "NormalWeb",
+        "rStyle": "",
+        "italic": false,
+        "size": "20"
+      },
+      {
+        "index": 16,
+        "texts": "As corporations age, they typically become “sclerotic” as new policies are layered on top of old ones. Longstanding policies and entrenched processes foster fear of change among employees and managers, emphasizing the status quo over innovation. This cultural inertia discourages proactive improvements, heightening vulnerability to market disruptions and technological shifts.",
+        "pStyle": "NormalWeb",
+        "rStyle": "",
+        "italic": false,
+        "size": "20"
+      },
+      {
+        "index": 17,
+        "texts": "References",
+        "pStyle": "heading2",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 18,
+        "texts": "Omolawal, Samuel. Human Relations Theory: Implications for Effective Human Resource Management. 5. 1-8. (2023).",
+        "pStyle": "referenceitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 19,
+        "texts": "Cabrera, Derek & Cabrera, Laura & Lobdell, Claire. Systems Thinking. Evaluation and program planning. 31. 299-310. 10.1016/j.evalprogplan.2007.12.001, (2008).",
+        "pStyle": "referenceitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 20,
+        "texts": "Marbach, Phyllis & Rosser, Larri & Osvalds, Gundars & Lempia, David. Principles for Agile Development. INCOSE International Symposium. 25. 524-537 (2015).",
+        "pStyle": "referenceitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 21,
+        "texts": "Morrison, R., Data-Driven Organization Design: Delivering Perpetual Performance Gains Through the Organizational System, 2nd Edition by Rupert Morrison (Author) Kogan Page Publishers, Oct 3, (2021)",
+        "pStyle": "referenceitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 22,
+        "texts": "Worren, N., Organization design: simplifying complex systems. Routledge. (2018).",
+        "pStyle": "referenceitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 23,
+        "texts": "Fidanboy, M., Organizations and complex adaptive systems. Routledge Focus on Business and Management, (2022) ",
+        "pStyle": "referenceitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 24,
+        "texts": "Suh, N. P., Axiomatic Design: Advances and Applications, ISBN-10. 0195134664 · ISBN-13. 978-0195134667 · Edition. 1st · Publisher. Oxford University Press, (2001)",
+        "pStyle": "referenceitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 25,
+        "texts": "Suh, N. P., Complexity Theory, Oxford University Press, (2005)",
+        "pStyle": "referenceitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 26,
+        "texts": "Holland, John. Complex Adaptive Systems. Journal of Systems Science and Complexity. 19. 10.1007/s11424-006-0001-z. (2006).",
+        "pStyle": "referenceitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 27,
+        "texts": "Han, J., J. Pei, and H. Tong. Data Mining: Concepts and Techniques, Fourth Edition, 1–752, (2022). https://doi.org/10.1016/C2013-0-18660-6. ",
+        "pStyle": "referenceitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 28,
+        "texts": "van der Aalst, W. et al.  Process Mining Manifesto. In: Daniel, F., Barkaoui, K., Dustdar, S. (eds) Business Process Management Workshops. BPM. Lecture Notes in Business Information Processing, vol 99. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-642-28108-2_19, (2011)",
+        "pStyle": "referenceitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 29,
+        "texts": "Minseok Song, Wil M.P. van der Aalst, Towards comprehensive support for organizational mining, Decision Support Systems, Volume 46, Issue 1, 300-317, (2008)",
+        "pStyle": "referenceitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 30,
+        "texts": "Gillian Tett, The silo effect: The peril of expertise and the promise of breaking down barriers. Simon & Schuster (2015)",
+        "pStyle": "referenceitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      },
+      {
+        "index": 31,
+        "texts": "Geoffrey Moore’s Zone to Win: Organizing to Compete in an Age of Disruption. Diversion Books (2015)",
+        "pStyle": "referenceitem",
+        "rStyle": "",
+        "italic": false,
+        "size": ""
+      }
+    ],
+    "styles": [
+      {
+        "id": "Heading10",
+        "type": "paragraph",
+        "name": "heading 1",
+        "basedOn": "Normal",
+        "size": "",
+        "italic": false
+      },
+      {
+        "id": "Heading20",
+        "type": "paragraph",
+        "name": "heading 2",
+        "basedOn": "Normal",
+        "size": "",
+        "italic": false
+      },
+      {
+        "id": "Heading3",
+        "type": "paragraph",
+        "name": "heading 3",
+        "basedOn": "Normal",
+        "size": "",
+        "italic": false
+      },
+      {
+        "id": "Heading4",
+        "type": "paragraph",
+        "name": "heading 4",
+        "basedOn": "Normal",
+        "size": "",
+        "italic": false
+      },
+      {
+        "id": "abstract",
+        "type": "paragraph",
+        "name": "abstract",
+        "basedOn": "Normal",
+        "size": "18",
+        "italic": false
+      },
+      {
+        "id": "heading1",
+        "type": "paragraph",
+        "name": "heading1",
+        "basedOn": "Normal",
+        "size": "",
+        "italic": false
+      },
+      {
+        "id": "heading2",
+        "type": "paragraph",
+        "name": "heading2",
+        "basedOn": "Normal",
+        "size": "",
+        "italic": false
+      },
+      {
+        "id": "heading30",
+        "type": "character",
+        "name": "heading3",
+        "basedOn": "DefaultParagraphFont",
+        "size": "",
+        "italic": false
+      },
+      {
+        "id": "heading40",
+        "type": "character",
+        "name": "heading4",
+        "basedOn": "DefaultParagraphFont",
+        "size": "",
+        "italic": true
+      },
+      {
+        "id": "headings",
+        "type": "numbering",
+        "name": "headings",
+        "basedOn": "arabnumitem",
+        "size": "",
+        "italic": false
+      },
+      {
+        "id": "papertitle",
+        "type": "paragraph",
+        "name": "papertitle",
+        "basedOn": "Normal",
+        "size": "28",
+        "italic": false
+      },
+      {
+        "id": "papersubtitle",
+        "type": "paragraph",
+        "name": "papersubtitle",
+        "basedOn": "papertitle",
+        "size": "24",
+        "italic": false
+      },
+      {
+        "id": "Heading4Char",
+        "type": "character",
+        "name": "Heading 4 Char",
+        "basedOn": "DefaultParagraphFont",
+        "size": "24",
+        "italic": false
+      },
+      {
+        "id": "Heading3Char",
+        "type": "character",
+        "name": "Heading 3 Char",
+        "basedOn": "DefaultParagraphFont",
+        "size": "24",
+        "italic": false
+      },
+      {
+        "id": "Heading2Char",
+        "type": "character",
+        "name": "Heading 2 Char",
+        "basedOn": "DefaultParagraphFont",
+        "size": "24",
+        "italic": false
+      }
+    ]
+  }
+}

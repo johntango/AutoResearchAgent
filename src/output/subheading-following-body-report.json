@@ -1,0 +1,66 @@
+{
+  "target": [
+    {
+      "index": 15,
+      "text": "PostWorld War II societies confronted unprecedented complexity: largescale infrastructure, aerospace systems, urban planning, and information technologies. Against this backdrop, designers and engineers sought more explicit, rational ways to plan and coordinate design work. The 1962 Conference on Design Methods in London symbolized this shift, marking what Nigel Cross calls the birth of modern design methodology and the Design Methods Movement.",
+      "styleId": "",
+      "before": "",
+      "after": "",
+      "line": "",
+      "firstLine": "0",
+      "styleXml": ""
+    },
+    {
+      "index": 16,
+      "text": "2.2 Herbert Simon and the Science of the Artificial",
+      "styleId": "heading2",
+      "before": "",
+      "after": "",
+      "line": "",
+      "firstLine": "",
+      "styleXml": "<w:style xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" w:type=\"paragraph\" w:customStyle=\"1\" w:styleId=\"heading2\"><w:name w:val=\"heading2\"/><w:basedOn w:val=\"Normal\"/><w:next w:val=\"p1a\"/><w:qFormat/><w:pPr><w:keepNext/><w:keepLines/><w:numPr><w:ilvl w:val=\"1\"/><w:numId w:val=\"7\"/></w:numPr><w:tabs><w:tab w:val=\"clear\" w:pos=\"567\"/><w:tab w:val=\"num\" w:pos=\"747\"/></w:tabs><w:suppressAutoHyphens/><w:spacing w:before=\"360\" w:after=\"160\"/><w:ind w:left=\"747\"/><w:jc w:val=\"left\"/><w:outlineLvl w:val=\"1\"/></w:pPr><w:rPr><w:b/></w:rPr></w:style>"
+    },
+    {
+      "index": 17,
+      "text": "Herbert A. Simon’s The Sciences of the Artificial (1969; 3rd ed. 1996) crystallized this agenda.",
+      "styleId": "",
+      "before": "100",
+      "after": "100",
+      "line": "240",
+      "firstLine": "0",
+      "styleXml": ""
+    }
+  ],
+  "output": [
+    {
+      "index": 9,
+      "text": "Herein we propose an integrated approach to organizational design by combining Axiomatic Design (AD) [7, 8] and Complex Adaptive Systems (CAS) [9]. AD provides a structured methodology for defining functional requirements (FRs) and design parameters (DPs) to ensure clarity, efficiency, and independence in organizational structures. Meanwhile, CAS principles enable organizations to develop self-organizing, adaptable, and resilient systems that respond dynamically to external changes.",
+      "styleId": "p1a",
+      "before": "",
+      "after": "",
+      "line": "",
+      "firstLine": "",
+      "styleXml": "<w:style xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" w:type=\"paragraph\" w:customStyle=\"1\" w:styleId=\"p1a\"><w:name w:val=\"p1a\"/><w:basedOn w:val=\"Normal\"/><w:next w:val=\"Normal\"/><w:pPr><w:ind w:firstLine=\"0\"/></w:pPr></w:style>"
+    },
+    {
+      "index": 10,
+      "text": "Inefficiencies and Resistance to Change",
+      "styleId": "heading2",
+      "before": "0",
+      "after": "",
+      "line": "",
+      "firstLine": "",
+      "styleXml": "<w:style xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" w:type=\"paragraph\" w:customStyle=\"1\" w:styleId=\"heading2\"><w:name w:val=\"heading2\"/><w:basedOn w:val=\"Normal\"/><w:next w:val=\"p1a\"/><w:qFormat/><w:pPr><w:keepNext/><w:keepLines/><w:numPr><w:ilvl w:val=\"1\"/><w:numId w:val=\"7\"/></w:numPr><w:tabs><w:tab w:val=\"clear\" w:pos=\"567\"/><w:tab w:val=\"num\" w:pos=\"747\"/></w:tabs><w:suppressAutoHyphens/><w:spacing w:before=\"360\" w:after=\"160\"/><w:ind w:left=\"747\"/><w:jc w:val=\"left\"/><w:outlineLvl w:val=\"1\"/></w:pPr><w:rPr><w:b/></w:rPr></w:style>"
+    },
+    {
+      "index": 11,
+      "text": "Traditional organizational designs, historically rooted in hierarchical models, are increasingly unsuited for today’s dynamic and technologically driven environment. Key limitations include inefficiencies in hierarchical structures, resistance to change, inadequate adaptability to technological advances, and fragmented processes leading to poor data integration.",
+      "styleId": "",
+      "before": "",
+      "after": "",
+      "line": "",
+      "firstLine": "0",
+      "styleXml": ""
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "templateName": "target.docx",
+  "metadata": {
+    "path": "/Users/johnwilliams/MIT/Courses/AutoResearchAgent/target.docx",
+    "name": "target.docx",
+    "extension": ".docx",
+    "sizeBytes": 58740,
+    "modifiedAt": "2026-04-15T10:19:46.614Z"
+  },
+  "conferenceFlavor": "generic_conference",
+  "styleSignals": {
+    "headingNumberDepth": 2,
+    "tableCaptionPosition": "above",
+    "figureCaptionPosition": "below",
+    "abstractBeforeKeywords": true,
+    "referencesAtEnd": true,
+    "columnLayout": 1,
+    "frontMatterAlignment": "left"
+  },
+  "styleInventory": {
+    "titleStyle": "Title",
+    "authorStyle": "Author",
+    "affiliationStyle": "Affiliation",
+    "abstractStyle": "Abstract",
+    "keywordStyle": "Keywords",
+    "heading1Style": "Heading1",
+    "heading2Style": "Heading2",
+    "bodyStyle": "BodyText",
+    "referenceStyle": "References"
+  },
+  "structureRequirements": {
+    "required": [
+      "title",
+      "authors",
+      "affiliations",
+      "abstract",
+      "keywords",
+      "body",
+      "references"
+    ],
+    "optional": [
+      "lists",
+      "tables",
+      "figures"
+    ]
+  }
+}
